@@ -4,7 +4,7 @@
 Cập nhật gần nhất: 18/11/2026 (phiên 2).
 
 ## 1. Trạng thái hiện tại – v0.2, ĐANG CHẠY THẬT
-- Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã gắn, đang khởi tạo (18/11/2026 trả lỗi 522, thường tự hết sau vài phút đến vài giờ). Bản dự phòng: https://trachnhiemxahoi.pages.dev
+- Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã chạy. Bản dự phòng: https://trachnhiemxahoi.pages.dev
 - Song ngữ: tiếng Việt ở `/`, tiếng Anh ở `/en/`. Mỗi trang có nút chuyển ngôn ngữ và thẻ hreflang.
 - Logo: đã thiết kế, cùng họ huy hiệu với daynentang và kynanglamviec (mũ bảo hộ đặt trên sách mở; phía sau là nhà máy, ruộng bậc thang, máy bay).
 - 6 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt.
@@ -14,8 +14,9 @@ Cập nhật gần nhất: 18/11/2026 (phiên 2).
 - Đăng bài: UPLOAD TRỰC TIẾP, chưa nối Git. Các bước: `python3 _build/build.py` → zip nội dung thư mục `public/` → Cloudflare → Workers & Pages → trachnhiemxahoi → Create deployment → Production → upload zip → Save and deploy.
 - Zone trachnhiemxahoi.com: Active từ 18/11/2026. Nameserver GoDaddy: christian.ns.cloudflare.com, clarissa.ns.cloudflare.com. Custom domain: trachnhiemxahoi.com (CNAME @ → trachnhiemxahoi.pages.dev) và www.
 - Đã xóa bản ghi đỗ của GoDaddy (2 A, 1 CNAME www); giữ `_domainconnect`, `_dmarc`.
-- GitHub: CHƯA có repo. Chrome đang đăng nhập GitHub bằng tài khoản `thomastran1618`, không phải `reachpetertran`. Việc cần làm: Peter đăng nhập đúng tài khoản → tạo repo reachpetertran/trachnhiemxahoi (public) → push → nối Pages với Git.
-- Mã nguồn hiện chỉ nằm trong môi trường làm việc của phiên Claude (thư mục /home/claude/tnxh, đã commit git cục bộ). **Rủi ro: phiên mới không có sẵn mã nguồn.** Ưu tiên số 1 là đẩy lên GitHub.
+- GitHub: https://github.com/reachpetertran/trachnhiemxahoi (public, nhánh `main`), đẩy lên 18/11/2026. Bài nháp nhạy cảm (`content/nhap/`) KHÔNG có trên GitHub (.gitignore).
+- Phiên mới: gắn repo (add_repo reachpetertran/trachnhiemxahoi, quyền push), clone, sửa, `python3 _build/build.py`, commit cả `public/`, push, rồi upload zip `public/` lên Cloudflare (Pages chưa nối Git nên push KHÔNG tự đăng).
+- Bài nháp nằm ở máy của phiên cũ; bản đã gửi Peter: NHAP-dai-dien-nguoi-lao-dong.md. Phiên mới cần Peter gửi lại file này nếu làm tiếp.
 
 ## 3. Cấu trúc mã nguồn
 ```
@@ -71,8 +72,8 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 - 18/11/2026 (phiên 2): web song ngữ Việt – Anh như các dự án khác; Claude thiết kế logo; Claude được chạy luôn sau khi dựng xong.
 
 ## 9. Việc tiếp theo (theo thứ tự)
-1. Kiểm tra www.trachnhiemxahoi.com đã chạy (hết lỗi 522).
-2. Tạo repo GitHub reachpetertran/trachnhiemxahoi bằng đúng tài khoản, push mã nguồn, nối Pages với Git.
+1. (Xong 18/11/2026) trachnhiemxahoi.com và www đều chạy.
+2. (Tùy Peter) Nối Cloudflare Pages với GitHub để push là tự đăng: phải tạo project Pages mới từ Git rồi chuyển 2 custom domain sang (vài phút gián đoạn).
 3. Peter gửi số hiệu văn bản thay thế TT 02/2024, TT 29/2021, NĐ 12/2022 → cập nhật bài 2 và bài 5.
 4. Peter duyệt bài nháp dai-dien-nguoi-lao-dong.
 5. Xác minh danh bạ còn thiếu.
