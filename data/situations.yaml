@@ -1,0 +1,32 @@
+# Trục 2 – "Tôi đang gặp chuyện gì"
+situations:
+  - q: Công ty không ký hợp đồng, không đưa tôi bản hợp đồng
+    to: hop-dong-lao-dong
+  - q: Công ty giữ CCCD, bằng cấp gốc hoặc bắt đặt cọc
+    to: hop-dong-lao-dong
+  - q: Thử việc quá lâu, lương thử việc quá thấp
+    to: hop-dong-lao-dong
+  - q: Tôi muốn nghỉ việc – có phải báo trước không?
+    to: hop-dong-lao-dong
+  - q: Bị nợ lương, trả lương trễ, phiếu lương không rõ
+    to: tien-luong-lam-them-gio
+  - q: Bị ép tăng ca, tiền tăng ca tính sai
+    to: tien-luong-lam-them-gio
+  - q: Nghỉ việc rồi mà chưa được trả lương, tiền phép
+    to: tien-luong-lam-them-gio
+  - q: Công ty không đóng hoặc đóng thiếu bảo hiểm xã hội
+    to: bao-hiem-xa-hoi
+  - q: Mất việc – tôi có được trợ cấp thất nghiệp không?
+    to: bao-hiem-xa-hoi
+  - q: Nơi làm việc nguy hiểm, bụi, ồn, hóa chất
+    to: an-toan-ve-sinh-lao-dong
+  - q: Không được khám sức khỏe, khám bệnh nghề nghiệp
+    to: an-toan-ve-sinh-lao-dong
+  - q: Sắp đi làm ở nước ngoài – sợ bị lừa, bị thu phí cao
+    to: di-lam-viec-o-nuoc-ngoai
+  - q: Đang ở nước ngoài, bị giữ hộ chiếu, bị ép làm việc
+    to: di-lam-viec-o-nuoc-ngoai
+  - q: Tôi muốn khiếu nại – cần chuẩn bị gì?
+    to: giu-bang-chung
+  - q: Tôi cần luật sư miễn phí
+    to: danh-ba

@@ -1,0 +1,42 @@
+# Trục 1 – "Tôi là ai". status: active | soon | hidden (hidden = chưa hiện công khai)
+groups:
+  - code: cong-nhan
+    name: Công nhân và người làm nghề nặng nhọc, độc hại, nguy hiểm
+    short: Nhà máy, xưởng, công trường, mỏ, kho bãi, bốc xếp…
+    status: active
+  - code: lao-dong-nuoc-ngoai
+    name: Người Việt đi làm việc ở nước ngoài
+    short: Nhật Bản, Đài Loan, Hàn Quốc và các nước khác
+    status: active
+  - code: nong-dan
+    name: Nông dân, ngư dân
+    short: Bảo hiểm tự nguyện, an toàn hóa chất nông nghiệp
+    status: soon
+  - code: lao-dong-tu-do
+    name: Lao động tự do, làm thuê theo ngày
+    short: Shipper, phụ hồ, giúp việc, bán hàng rong…
+    status: soon
+  - code: tre-em
+    name: Trẻ em và người chưa thành niên đi làm
+    short: Tuổi được làm việc, việc bị cấm, ai bảo vệ em
+    status: soon
+  - code: mua-ban-nguoi
+    name: Người bị lừa, bị mua bán, bị ép làm việc
+    short: Nhận biết dấu hiệu, cách thoát, ai hỗ trợ
+    status: soon
+  - code: phu-nu
+    name: Phụ nữ bị bạo hành
+    short: Nơi tạm lánh, trợ giúp pháp lý, bảo vệ con
+    status: soon
+  - code: khuyet-tat
+    name: Người khuyết tật
+    short: Quyền đi làm, hỗ trợ, học nghề
+    status: soon
+  - code: suc-khoe-tam-than
+    name: Người có vấn đề sức khỏe tâm thần
+    short: Nhận biết sớm, nơi khám, người thân cần làm gì
+    status: soon
+  - code: tre-kho-khan
+    name: Trẻ mồ côi, trẻ không nơi nương tựa, trẻ trong gia đình khó khăn
+    short: Nợ nần, cờ bạc, bạo hành, bệnh tật trong nhà
+    status: soon
