@@ -1,32 +1,47 @@
 # Trục 2 – "Tôi đang gặp chuyện gì"
 situations:
-  - q: Công ty không ký hợp đồng, không đưa tôi bản hợp đồng
-    to: hop-dong-lao-dong
-  - q: Công ty giữ CCCD, bằng cấp gốc hoặc bắt đặt cọc
-    to: hop-dong-lao-dong
-  - q: Thử việc quá lâu, lương thử việc quá thấp
-    to: hop-dong-lao-dong
-  - q: Tôi muốn nghỉ việc – có phải báo trước không?
-    to: hop-dong-lao-dong
-  - q: Bị nợ lương, trả lương trễ, phiếu lương không rõ
-    to: tien-luong-lam-them-gio
-  - q: Bị ép tăng ca, tiền tăng ca tính sai
-    to: tien-luong-lam-them-gio
-  - q: Nghỉ việc rồi mà chưa được trả lương, tiền phép
-    to: tien-luong-lam-them-gio
-  - q: Công ty không đóng hoặc đóng thiếu bảo hiểm xã hội
-    to: bao-hiem-xa-hoi
-  - q: Mất việc – tôi có được trợ cấp thất nghiệp không?
-    to: bao-hiem-xa-hoi
-  - q: Nơi làm việc nguy hiểm, bụi, ồn, hóa chất
-    to: an-toan-ve-sinh-lao-dong
-  - q: Không được khám sức khỏe, khám bệnh nghề nghiệp
-    to: an-toan-ve-sinh-lao-dong
-  - q: Sắp đi làm ở nước ngoài – sợ bị lừa, bị thu phí cao
-    to: di-lam-viec-o-nuoc-ngoai
-  - q: Đang ở nước ngoài, bị giữ hộ chiếu, bị ép làm việc
-    to: di-lam-viec-o-nuoc-ngoai
-  - q: Tôi muốn khiếu nại – cần chuẩn bị gì?
-    to: giu-bang-chung
-  - q: Tôi cần luật sư miễn phí
-    to: danh-ba
+- q: Công ty không ký hợp đồng, không đưa tôi bản hợp đồng
+  to: hop-dong-lao-dong
+  q_en: The company has no contract with me, or never gave me my copy
+- q: Công ty giữ CCCD, bằng cấp gốc hoặc bắt đặt cọc
+  to: hop-dong-lao-dong
+  q_en: The company keeps my ID card or original diplomas, or asked for a deposit
+- q: Thử việc quá lâu, lương thử việc quá thấp
+  to: hop-dong-lao-dong
+  q_en: Probation is too long, or probation pay is too low
+- q: Tôi muốn nghỉ việc – có phải báo trước không?
+  to: hop-dong-lao-dong
+  q_en: I want to quit – do I have to give notice?
+- q: Bị nợ lương, trả lương trễ, phiếu lương không rõ
+  to: tien-luong-lam-them-gio
+  q_en: Unpaid wages, late pay, unclear payslips
+- q: Bị ép tăng ca, tiền tăng ca tính sai
+  to: tien-luong-lam-them-gio
+  q_en: Forced overtime, or overtime paid wrongly
+- q: Nghỉ việc rồi mà chưa được trả lương, tiền phép
+  to: tien-luong-lam-them-gio
+  q_en: I have left but have not been paid wages or untaken leave
+- q: Công ty không đóng hoặc đóng thiếu bảo hiểm xã hội
+  to: bao-hiem-xa-hoi
+  q_en: The company does not pay, or underpays, my social insurance
+- q: Mất việc – tôi có được trợ cấp thất nghiệp không?
+  to: bao-hiem-xa-hoi
+  q_en: I lost my job – can I get unemployment benefit?
+- q: Nơi làm việc nguy hiểm, bụi, ồn, hóa chất
+  to: an-toan-ve-sinh-lao-dong
+  q_en: 'My workplace is dangerous: dust, noise, chemicals'
+- q: Không được khám sức khỏe, khám bệnh nghề nghiệp
+  to: an-toan-ve-sinh-lao-dong
+  q_en: No health checks or occupational disease screening
+- q: Sắp đi làm ở nước ngoài – sợ bị lừa, bị thu phí cao
+  to: di-lam-viec-o-nuoc-ngoai
+  q_en: Going to work abroad – afraid of scams and high fees
+- q: Đang ở nước ngoài, bị giữ hộ chiếu, bị ép làm việc
+  to: di-lam-viec-o-nuoc-ngoai
+  q_en: 'Abroad: my passport is held and I am forced to work'
+- q: Tôi muốn khiếu nại – cần chuẩn bị gì?
+  to: giu-bang-chung
+  q_en: I want to complain – what do I need to prepare?
+- q: Tôi cần luật sư miễn phí
+  to: danh-ba
+  q_en: I need a free lawyer

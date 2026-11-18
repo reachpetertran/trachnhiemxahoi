@@ -3,16 +3,16 @@ slug: di-lam-viec-o-nuoc-ngoai
 order: 5
 status: published
 title: "Đi làm việc ở nước ngoài: phí bao nhiêu là đúng, dấu hiệu bị lừa và bị ép làm việc"
-short: Mức phí trần khi đi Nhật Bản, Đài Loan, Hàn Quốc; 11 dấu hiệu lao động cưỡng bức của ILO; đường dây hỗ trợ tiếng Việt ở nước sở tại.
+short: Mức trần tiền dịch vụ theo Luật 69/2020; 11 dấu hiệu lao động cưỡng bức của ILO; đường dây hỗ trợ tiếng Việt ở nước sở tại.
 groups: [lao-dong-nuoc-ngoai]
 checked: 18/11/2026
 summary:
-  - Đi làm việc ở Nhật Bản, Thái Lan – giá dịch vụ môi giới là 0 đồng; Hàn Quốc EPS là chương trình giữa hai Chính phủ. Ai đòi tiền "chạy" là dấu hiệu lừa đảo.
+  - Tiền dịch vụ tối đa 1 tháng lương cho mỗi 12 tháng làm việc, chỉ được thu sau khi ký hợp đồng. Ai đòi tiền "chạy" đơn hàng là dấu hiệu lừa đảo.
   - Bị giữ hộ chiếu, giữ lương, trói buộc bằng nợ, bị nhốt hay đe dọa là dấu hiệu lao động cưỡng bức.
   - Ở Việt Nam gọi 111; ở Đài Loan gọi 1955; ở Nhật gọi OTIT 0120-250-168 (tiếng Việt, miễn phí).
 sources:
-  - t: Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 69/2020/QH14, ban hành 13/11/2020, hiệu lực 01/01/2022 – đang đối chiếu văn bản gốc
-  - t: Thông tư 21/2021/TT-BLĐTBXH, sửa đổi bởi Thông tư 02/2024/TT-BLĐTBXH (hiệu lực 15/5/2024) – mức trần tiền dịch vụ, giá môi giới
+  - t: Luật Người lao động Việt Nam đi làm việc ở nước ngoài theo hợp đồng số 69/2020/QH14, ban hành 13/11/2020, hiệu lực 01/01/2022 – Điều 23 (đối chiếu văn bản gốc 18/11/2026)
+  - t: Thông tư 21/2021/TT-BLĐTBXH, ban hành 15/12/2021, hiệu lực 01/02/2022 – mức phí phục vụ tối đa Đài Loan (đối chiếu văn bản gốc 18/11/2026)
     u: https://vanban.vcci.com.vn/thong-tu-212021tt-bldtbxh-huong-dan-luat-nguoi-lao-dong-viet-nam-di-lam-viec-o-nuoc-ngoai-theo-hop-dong
   - t: Luật Phòng, chống mua bán người số 53/2024/QH15, hiệu lực 01/7/2025
     u: https://vanban.chinhphu.vn/?pageid=27160&docid=212481&classid=1&orggroupid=1
@@ -35,20 +35,18 @@ Từ 01/3/2025, **Cục Quản lý lao động ngoài nước** thuộc **Bộ N
 
 ## 2. Phí bao nhiêu là đúng
 
-Theo Thông tư 21/2021/TT-BLĐTBXH (sửa đổi bởi Thông tư 02/2024/TT-BLĐTBXH):
+**Tiền dịch vụ** là khoản doanh nghiệp đưa người đi làm việc được thu. Theo Luật 69/2020/QH14, Điều 23:
 
-| Thị trường, ngành nghề | Quy định |
-|---|---|
-| **Mọi ngành nghề ở Nhật Bản và Thái Lan** | Giá dịch vụ môi giới: **0 đồng** |
-| Thuyền viên tàu cá xa bờ, tàu vận tải ở Đài Loan và Hàn Quốc | Giá dịch vụ môi giới: **0 đồng** |
-| Giúp việc gia đình ở Malaysia, Brunei, Tây Á | Giá dịch vụ môi giới: **0 đồng** |
-| Lao động nông nghiệp ở Úc | Giá dịch vụ môi giới: **0 đồng** |
-| Nhật Bản – thực tập sinh số 3 không đổi nơi thực tập; kỹ năng đặc định chuyển tiếp từ thực tập sinh số 2, số 3 | Tiền dịch vụ: **0 đồng** |
-| Đài Loan – phí phục vụ của công ty môi giới Đài Loan thu từ người lao động | Tối đa **1.500 Đài tệ/tháng** |
+> **Khoản 4 điểm a:** mức trần tiền dịch vụ thu từ người lao động “Không quá 01 tháng tiền lương của người lao động theo hợp đồng cho mỗi 12 tháng làm việc; đối với sĩ quan và thuyền viên làm việc trên tàu vận tải biển không quá 1,5 tháng tiền lương…”
 
-**Hàn Quốc – chương trình EPS** là chương trình giữa Chính phủ hai nước, do Trung tâm Lao động ngoài nước (Bộ Nội vụ) thực hiện phía Việt Nam. <span class="tag chk">Đang đối chiếu</span>
+- Chỉ được thu **sau khi** hợp đồng cung ứng lao động đã được cơ quan nhà nước chấp thuận **và** bạn đã ký hợp đồng đưa đi làm việc với doanh nghiệp (khoản 2 điểm c).
+- Nếu bên nước ngoài đã trả tiền dịch vụ, doanh nghiệp chỉ được thu của bạn **phần còn thiếu** (khoản 2 điểm d).
+- Phải về nước trước hạn **không do lỗi của bạn**: doanh nghiệp phải **hoàn lại** tiền dịch vụ tương ứng thời gian chưa làm, kèm tiền lãi (khoản 3).
+- Một số thị trường, ngành nghề có mức trần **thấp hơn** (khoản 4 điểm c). Ví dụ: công ty môi giới Đài Loan được thu của người lao động tối đa **1.500 Đài tệ/tháng** tiền phí phục vụ (Thông tư 21/2021/TT-BLĐTBXH, phụ lục).
 
-Ai đòi bạn nộp tiền “chạy” đơn hàng Nhật, “chạy” EPS, “bao đỗ”, hoặc thu tiền cao hơn mức trên – **đó là dấu hiệu lừa đảo.**
+<p class="change">Mức trần giá dịch vụ <b>môi giới</b> theo từng thị trường (trước đây ở Thông tư 02/2024/TT-BLĐTBXH, có các trường hợp 0 đồng như Nhật Bản) <b>đang được đối chiếu văn bản thay thế</b>. Trong lúc chờ, hãy hỏi Sở Nội vụ hoặc Cục Quản lý lao động ngoài nước về mức áp dụng cho đơn hàng của bạn.</p>
+
+Ai đòi bạn nộp tiền “chạy” đơn hàng, “chạy” EPS, “bao đỗ”, thu tiền **trước khi** ký hợp đồng, hoặc thu cao hơn mức trần – **đó là dấu hiệu lừa đảo.**
 
 ## 3. 11 dấu hiệu lao động cưỡng bức (ILO)
 

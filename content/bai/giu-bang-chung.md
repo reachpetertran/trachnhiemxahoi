@@ -11,11 +11,11 @@ summary:
   - Hỏi công ty bằng văn bản trước; không được giải quyết thì gửi tới Sở Nội vụ hoặc UBND xã, phường nơi công ty đặt trụ sở.
   - Có thời hạn để yêu cầu giải quyết tranh chấp – đừng chờ quá lâu.
 sources:
-  - t: Bộ luật Lao động số 45/2019/QH14 (Điều 95 khoản 3; Chương XIV – giải quyết tranh chấp lao động)
+  - t: Bộ luật Lao động số 45/2019/QH14 (Điều 95 khoản 3; Điều 188, 190) – đối chiếu văn bản gốc 18/11/2026
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
   - t: Nghị định 129/2025/NĐ-CP – phân định thẩm quyền chính quyền 2 cấp lĩnh vực Nội vụ, hiệu lực 01/7/2025
     u: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-129-2025-ND-CP-phan-dinh-tham-quyen-chinh-quyen-02-cap-linh-vuc-quan-ly-cua-Bo-Noi-vu-660603.aspx
-  - t: Luật Trợ giúp pháp lý số 11/2017/QH14, Điều 7; Luật sửa đổi số 05/2026/QH16 (hiệu lực 01/01/2027)
+  - t: Luật Trợ giúp pháp lý số 11/2017/QH14, Điều 7 – còn hiệu lực, đã sửa đổi bởi Luật 53/2024/QH15 và 59/2024/QH15; Luật sửa đổi số 05/2026/QH16 ban hành 23/4/2026, hiệu lực 01/01/2027
     u: https://tgpl.moj.gov.vn/Pages/hoi-nhap-phat-trien.aspx?ItemID=1926&l=Nghiencuutraodoi
 upcoming: |
   Từ **01/01/2027**, diện được trợ giúp pháp lý miễn phí mở rộng thêm: hộ cận nghèo, người khuyết tật, nạn nhân mua bán người và người dưới 18 tuổi đi cùng, người lao động có thu nhập thấp là người bị buộc tội hoặc bị hại (Luật 05/2026/QH16).
@@ -50,9 +50,9 @@ Với bảo hiểm xã hội: gửi thêm tới **cơ quan BHXH** nơi công ty 
 
 ## 4. Các bước giải quyết tranh chấp cá nhân
 
-Theo Bộ luật Lao động, tranh chấp lao động cá nhân thường đi qua: **hòa giải viên lao động → Hội đồng trọng tài lao động → Tòa án**. Một số loại tranh chấp (ví dụ bị sa thải, bị đơn phương chấm dứt hợp đồng, bồi thường, BHXH) **không bắt buộc** qua hòa giải. <span class="tag chk">Đang đối chiếu danh sách nguyên văn</span>
+Theo Bộ luật Lao động, tranh chấp lao động cá nhân thường đi qua: **hòa giải viên lao động → Hội đồng trọng tài lao động → Tòa án**. Theo Điều 188 khoản 1, các tranh chấp sau **không bắt buộc** qua hòa giải: bị kỷ luật sa thải hoặc bị đơn phương chấm dứt hợp đồng; bồi thường, trợ cấp khi chấm dứt hợp đồng; tranh chấp của người giúp việc gia đình; BHXH, BHYT, BHTN, bảo hiểm tai nạn lao động – bệnh nghề nghiệp; bồi thường giữa người lao động với doanh nghiệp đưa người đi làm việc ở nước ngoài; tranh chấp của người lao động thuê lại.
 
-**Thời hạn để yêu cầu** (Điều 190, tính từ ngày bạn phát hiện quyền lợi bị vi phạm): <span class="tag chk">Đang đối chiếu nguyên văn</span>
+**Thời hạn để yêu cầu** (Điều 190, tính từ ngày bạn phát hiện hành vi vi phạm quyền lợi của mình):
 
 | Yêu cầu | Trong vòng |
 |---|---|
@@ -60,7 +60,7 @@ Theo Bộ luật Lao động, tranh chấp lao động cá nhân thường đi q
 | Hội đồng trọng tài lao động | 9 tháng |
 | Tòa án | 1 năm |
 
-Quá thời hạn, bạn có thể mất quyền yêu cầu. **Đừng chờ.**
+Nếu vì bất khả kháng hoặc trở ngại khách quan mà không yêu cầu kịp, khoảng thời gian đó không tính vào thời hạn (Điều 190 khoản 4) – nhưng bạn phải chứng minh được. **Đừng chờ.**
 
 ## 5. Luật sư miễn phí: ai được?
 

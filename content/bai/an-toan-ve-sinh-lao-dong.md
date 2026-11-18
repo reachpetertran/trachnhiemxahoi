@@ -13,15 +13,13 @@ summary:
 sources:
   - t: Luật An toàn, vệ sinh lao động số 84/2015/QH13, ban hành 25/6/2015, hiệu lực 01/7/2016 – còn hiệu lực, đã được Luật BHXH 2024 sửa phần chế độ bảo hiểm
     u: https://baochinhphu.vn/de-xuat-cat-giam-thu-tuc-dieu-kien-kinh-doanh-trong-linh-vuc-an-toan-ve-sinh-lao-dong-102261021102744433.htm
-  - t: Thông tư 15/2016/TT-BYT, sửa đổi bởi Thông tư 02/2023/TT-BYT – 35 bệnh nghề nghiệp được hưởng BHXH (Bộ Y tế)
-    u: https://moh.gov.vn/en/web/phong-chong-benh-nghe-nghiep/thong-tin-hoat-dong/-/asset_publisher/xjpQsFUZRw4q/content/danh-sach-35-nhom-benh-nghe-nghiep-uoc-huong-bao-hiem-xa-hoi-nam-2023?inheritRedirect=false
-  - t: Luật Hóa chất số 69/2025/QH15, Điều 25 (phiếu an toàn hóa chất) – đang đối chiếu ngày hiệu lực
+  - t: Thông tư 60/2025/TT-BYT về bệnh nghề nghiệp được hưởng BHXH, ban hành 31/12/2025, hiệu lực 15/02/2026 – thay Thông tư 15/2016/TT-BYT và 02/2023/TT-BYT (đối chiếu văn bản gốc 18/11/2026)
+  - t: Luật Hóa chất số 69/2025/QH15, ban hành 14/6/2025, Điều 25 (phiếu an toàn hóa chất)
   - t: QCVN 25:2015/BLĐTBXH – an toàn lao động đối với xe nâng hàng (mục 2.1.16.2)
   - t: Công ước ILO số 155 (Việt Nam phê chuẩn 03/10/1994) và số 187 (phê chuẩn 16/5/2014) – NORMLEX
     u: https://normlex.ilo.org/dyn/nrmlx_en/f?p=NORMLEXPUB%3A11200%3A0%3A%3ANO%3A%3Ap11200_country_id%3A103004
 upcoming: |
   Dự án Luật sửa đổi, bổ sung Luật An toàn, vệ sinh lao động đã trình Quốc hội ngày 21/10/2026, **dự kiến** hiệu lực 01/3/2027. Nội dung chính: đổi tên cơ quan theo bộ máy mới, sửa thủ tục khai báo, điều tra tai nạn lao động, cắt giảm thủ tục. **Chưa phải luật.**
-  Danh mục bệnh nghề nghiệp có thể được thay bằng thông tư mới – đang kiểm tra.
 ---
 
 ## 1. Khám sức khỏe: bao lâu một lần, ai trả tiền
@@ -37,19 +35,21 @@ Lỗi hay gặp ở nhà máy: chỉ khám tổng quát lúc mới vào, **khôn
 
 ## 2. 35 bệnh nghề nghiệp được BHXH chi trả
 
-Danh mục hiện hành (Thông tư 15/2016/TT-BYT, sửa đổi bởi Thông tư 02/2023/TT-BYT) có **35 bệnh**. Một số bệnh hay gặp ở nhà máy:
+Từ **15/02/2026**, danh mục do **Thông tư 60/2025/TT-BYT** quy định (thay Thông tư 15/2016 và 02/2023), vẫn gồm **35 bệnh** (Điều 3). Một số bệnh hay gặp ở nhà máy:
 
-- bụi phổi silic (đá, cát, gốm sứ, đúc), bụi phổi bông (dệt), bụi phổi amiăng;
-- **điếc do tiếng ồn**;
-- nhiễm độc chì, benzen, thủy ngân;
-- nhiễm độc hóa chất bảo vệ thực vật;
+- bụi phổi silic, amiăng, bông, talc, than; hen và viêm phế quản mạn tính nghề nghiệp;
+- **điếc nghề nghiệp do tiếng ồn**; bệnh do rung toàn thân, rung cục bộ;
+- nhiễm độc chì, benzen và đồng đẳng, thủy ngân, mangan, cadmi, carbon monoxide, arsenic;
+- bệnh da nghề nghiệp (do crôm, do cao su và phụ gia cao su, do môi trường ẩm ướt, lạnh kéo dài);
 - bệnh giảm áp (thợ lặn).
 
 Nếu bạn làm lâu năm ở nơi bụi, ồn, hóa chất và có triệu chứng (ho kéo dài, khó thở, nghe kém…), hãy nói rõ nghề và nơi làm việc khi đi khám, và hỏi về **khám bệnh nghề nghiệp**.
 
 ## 3. Quyền từ chối làm việc nguy hiểm
 
-Luật An toàn, vệ sinh lao động có quy định quyền của người lao động được **từ chối làm công việc hoặc rời bỏ nơi làm việc** khi thấy rõ nguy cơ xảy ra tai nạn đe dọa nghiêm trọng tính mạng, sức khỏe, mà vẫn được trả đủ lương – nhưng phải **báo ngay** cho người quản lý trực tiếp. <span class="tag chk">Đang đối chiếu nguyên văn điều khoản</span>
+> **Luật An toàn, vệ sinh lao động 2015, Điều 6 khoản 1 điểm đ:** người lao động có quyền “Từ chối làm công việc hoặc rời bỏ nơi làm việc mà vẫn được trả đủ tiền lương và không bị coi là vi phạm kỷ luật lao động khi thấy rõ có nguy cơ xảy ra tai nạn lao động đe dọa nghiêm trọng tính mạng hoặc sức khỏe của mình nhưng phải báo ngay cho người quản lý trực tiếp để có phương án xử lý…”
+
+Cũng theo Điều 6, bạn có quyền **được biết** các yếu tố nguy hiểm, có hại ở nơi làm việc và cách phòng tránh; **được huấn luyện** an toàn; được khám phát hiện bệnh nghề nghiệp; được đóng bảo hiểm tai nạn lao động, bệnh nghề nghiệp. Đi kèm là nghĩa vụ: dùng đúng đồ bảo hộ được cấp và tuân thủ quy trình an toàn.
 
 ## 4. Những điều bạn tự nhìn thấy được
 

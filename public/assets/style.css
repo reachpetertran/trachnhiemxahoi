@@ -69,3 +69,9 @@ footer a{color:var(--muted)}
 .pn{display:flex;justify-content:space-between;gap:10px;margin-top:30px}
 @media print{.sos,.top,footer,.pn{display:none}body{background:#fff;font-size:12pt}}
 @media (max-width:600px){h1,.hero h1{font-size:1.55rem}body{font-size:17px}}
+.lang{margin-left:auto;color:#fff;font-size:.88rem;font-weight:600;border:1.5px solid rgba(255,255,255,.6);border-radius:999px;padding:3px 12px;text-decoration:none}
+.lang:hover{background:#fff;color:var(--brand)}
+.logo{width:40px;height:40px}
+.hero-badge{float:right;width:190px;height:auto;margin:0 0 10px 18px}
+@media (max-width:640px){.hero-badge{float:none;display:block;width:150px;margin:0 auto 12px}}
+.hero::after{content:"";display:block;clear:both}

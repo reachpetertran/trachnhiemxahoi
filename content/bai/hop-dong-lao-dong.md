@@ -11,7 +11,7 @@ summary:
   - Công ty không được giữ CCCD, bằng cấp gốc, không được bắt bạn đặt cọc tiền hay tài sản.
   - Bị nợ lương, trả lương trễ, bị ngược đãi hay quấy rối – bạn được nghỉ việc ngay, không cần báo trước.
 sources:
-  - t: Bộ luật Lao động số 45/2019/QH14, ban hành 20/11/2019, hiệu lực 01/01/2021 – còn hiệu lực (tra 18/11/2026)
+  - t: Bộ luật Lao động số 45/2019/QH14, ban hành 20/11/2019, hiệu lực 01/01/2021 – còn hiệu lực (đối chiếu văn bản gốc 18/11/2026)
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
 upcoming: |
   Dự án luật sửa đổi Bộ luật Lao động đã được trình Quốc hội ngày 21/10/2026 và đang được xem xét. **Chưa phải luật.** Bài sẽ được cập nhật khi Quốc hội biểu quyết.

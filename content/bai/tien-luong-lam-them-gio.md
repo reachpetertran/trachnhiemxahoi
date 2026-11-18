@@ -11,17 +11,15 @@ summary:
   - Tăng ca phải được bạn đồng ý; tối đa 40 giờ/tháng và 200 giờ/năm (một số ngành tới 300 giờ/năm).
   - Mỗi lần trả lương, công ty phải đưa bảng kê ghi rõ lương, tiền tăng ca, tiền làm đêm và các khoản trừ.
 sources:
-  - t: Bộ luật Lao động số 45/2019/QH14 (Điều 95, 97, 98, 107, 109, 111, 113)
+  - t: Bộ luật Lao động số 45/2019/QH14 (Điều 95, 97, 98, 107, 109, 111, 113) – đối chiếu văn bản gốc 18/11/2026
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
   - t: Nghị định 293/2025/NĐ-CP về lương tối thiểu, ban hành 10/11/2025, hiệu lực 01/01/2026
     u: https://xaydungchinhsach.chinhphu.vn/tu-1-1-2026-muc-luong-toi-thieu-duoc-tang-bao-nhieu-119251111091442629.htm
   - t: Nghị định 145/2020/NĐ-CP (giới hạn giờ làm thêm, cách tính) – còn hiệu lực, có dự thảo sửa đổi 2026
     u: https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Nghi-dinh-145-2020-ND-CP-huong-dan-Bo-luat-Lao-dong-ve-dieu-kien-lao-dong-quan-he-lao-dong-459400.aspx
-  - t: Bộ Nội vụ giải đáp về giới hạn giờ làm thêm (Tạp chí Luật sư Việt Nam)
-    u: https://lsvn.vn/bo-noi-vu-giai-dap-ve-viec-xac-dinh-so-gio-lam-them-vuot-quy-dinh-a178584.html
   - t: Thông tư 11/2020/TT-BLĐTBXH (danh mục nghề nặng nhọc, độc hại, nguy hiểm), bổ sung bởi Thông tư 19/2023/TT-BLĐTBXH
     u: https://baohiemxahoi.gov.vn/vanban/Pages/default.aspx?ItemID=4153
-  - t: Thông tư 24/2022/TT-BLĐTBXH (bồi dưỡng bằng hiện vật) – đang đối chiếu tình trạng hiệu lực
+  - t: Thông tư 24/2022/TT-BLĐTBXH (bồi dưỡng bằng hiện vật), ban hành 30/11/2022 – đối chiếu văn bản gốc 18/11/2026
 upcoming: |
   - Lương tối thiểu vùng thường được điều chỉnh bằng nghị định mới ban hành vào cuối năm. Bài sẽ cập nhật khi có nghị định mới.
   - Dự thảo sửa Bộ luật Lao động đề xuất thêm 2 ngày nghỉ lễ – **đang được xem xét, chưa phải luật**.
@@ -54,13 +52,13 @@ Phiếu lương chỉ ghi “tổng nhận” là **chưa đủ**.
 
 > **Điều 107 khoản 2:** Người sử dụng lao động được sử dụng người lao động làm thêm giờ khi đáp ứng đầy đủ các yêu cầu, trong đó có: “a) Phải được sự đồng ý của người lao động”.
 
-Giới hạn giờ làm thêm (Điều 107 và Nghị định 145/2020):
+Giới hạn giờ làm thêm (Điều 107 khoản 2, 3, 4):
 
-- không quá **50% số giờ làm bình thường trong 1 ngày**;
+- không quá **50% số giờ làm bình thường trong 1 ngày** (nếu tính giờ làm theo tuần: tổng giờ làm bình thường và làm thêm không quá 12 giờ/ngày);
 - không quá **40 giờ/tháng**;
-- không quá **200 giờ/năm**; một số ngành (dệt, may, da, giày, điện tử, chế biến nông, lâm, thủy sản…) được tới **300 giờ/năm** và công ty phải thông báo cơ quan lao động cấp tỉnh.
+- không quá **200 giờ/năm**; một số ngành (dệt, may, da, giày, điện, điện tử, chế biến nông, lâm, diêm nghiệp, thủy sản…) được tới **300 giờ/năm**, và công ty phải **thông báo bằng văn bản** cho cơ quan chuyên môn về lao động thuộc UBND cấp tỉnh.
 
-Bộ Nội vụ đã giải đáp: mức 40 giờ/tháng và 200 giờ/năm phải được bảo đảm **cùng lúc**.
+Cả 3 giới hạn này phải được bảo đảm **cùng lúc**.
 
 ## 4. Cách tính tiền tăng ca
 
@@ -87,9 +85,9 @@ Trong đánh giá thực tế đã gặp trường hợp công ty chỉ trả 13
 
 **Nghề của bạn có trong danh mục không?** Danh mục do Thông tư 11/2020/TT-BLĐTBXH ban hành, bổ sung bởi Thông tư 19/2023/TT-BLĐTBXH. Thời gian làm nghề theo các danh mục cũ trước 01/3/2021 vẫn được tính. Nếu có tên trong danh mục, quyền lợi của bạn khác người làm việc bình thường:
 
-- **Phép năm nhiều hơn:** 14 ngày (nặng nhọc, độc hại, nguy hiểm) hoặc 16 ngày (đặc biệt nặng nhọc, độc hại, nguy hiểm) – Điều 113 khoản 1. <span class="tag chk">Đang đối chiếu nguyên văn</span>
+- **Phép năm nhiều hơn:** 14 ngày làm việc (nặng nhọc, độc hại, nguy hiểm) hoặc 16 ngày làm việc (đặc biệt nặng nhọc, độc hại, nguy hiểm), so với 12 ngày của công việc bình thường – Điều 113 khoản 1.
 - **Khám sức khỏe ít nhất 6 tháng/lần** – xem bài [An toàn, vệ sinh lao động](../an-toan-ve-sinh-lao-dong/).
-- **Bồi dưỡng bằng hiện vật** (thức ăn, đồ uống) theo định suất hằng ngày, khi làm nghề trong danh mục **và** môi trường có yếu tố có hại vượt tiêu chuẩn cho phép. Theo Thông tư 24/2022/TT-BLĐTBXH, có 4 mức: **13.000 đ, 20.000 đ, 26.000 đ, 32.000 đ**. Làm từ 50% giờ làm bình thường trở lên được cả định suất; dưới 50% được nửa định suất; **tăng ca thì định suất tăng theo số giờ làm thêm**. <span class="tag chk">Đang đối chiếu tình trạng hiệu lực</span>
+- **Bồi dưỡng bằng hiện vật** (thức ăn, đồ uống) theo định suất hằng ngày, khi làm nghề trong danh mục **và** môi trường có yếu tố có hại vượt tiêu chuẩn cho phép. Theo Thông tư 24/2022/TT-BLĐTBXH, có 4 mức: **13.000 đ, 20.000 đ, 26.000 đ, 32.000 đ**. Làm từ 50% giờ làm bình thường trở lên được cả định suất; dưới 50% được nửa định suất; **tăng ca thì định suất tăng theo số giờ làm thêm** (Điều 4). Điều kiện về môi trường lao động trong thông tư này có dẫn chiếu Thông tư 29/2021/TT-BLĐTBXH – văn bản đó đã hết hiệu lực. <span class="tag chk">Đang đối chiếu văn bản thay thế</span>
 
 Lỗi hay gặp: công ty không xác định công việc nào là nặng nhọc, độc hại; trả bồi dưỡng thấp hơn mức; không trả bồi dưỡng cho giờ tăng ca.
 

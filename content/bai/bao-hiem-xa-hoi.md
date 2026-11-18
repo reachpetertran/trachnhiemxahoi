@@ -11,9 +11,9 @@ summary:
   - Từ 01/01/2026, hợp đồng từ đủ 1 tháng trở lên đã phải đóng bảo hiểm thất nghiệp.
   - Hãy tự xem quá trình đóng BHXH của mình hằng tháng; thiếu thì hỏi bằng văn bản ngay.
 sources:
-  - t: Luật Bảo hiểm xã hội số 41/2024/QH15, ban hành 29/6/2024, hiệu lực 01/7/2025 – còn hiệu lực (thông tin từ BHXH Việt Nam)
+  - t: Luật Bảo hiểm xã hội số 41/2024/QH15, ban hành 29/6/2024, hiệu lực 01/7/2025 – còn hiệu lực (Điều 38–41, 64; đối chiếu văn bản gốc 18/11/2026)
     u: https://baohiemxahoi.gov.vn/chidaodieuhanh/pages/thong-tin-bao-chi.aspx?ItemID=24652&CateID=125
-  - t: Luật Việc làm số 74/2025/QH15, ban hành 16/6/2025, hiệu lực 01/01/2026 – thay Luật Việc làm 2013
+  - t: Luật Việc làm số 74/2025/QH15, ban hành 16/6/2025, hiệu lực 01/01/2026 – thay Luật Việc làm 2013 (Điều 38, 39; đối chiếu văn bản gốc)
     u: https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Luat-Viec-lam-2025-so-74-2025-QH15-530912.aspx
   - t: Bộ luật Lao động số 45/2019/QH14, Điều 168 khoản 3
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
@@ -33,7 +33,7 @@ Công ty đóng phần của công ty **và** trừ phần của bạn từ lư�
 
 - **Lương hưu:** điều kiện số năm đóng giảm từ 20 năm xuống **15 năm**.
 - Người đủ tuổi nghỉ hưu nhưng **chưa đủ 15 năm đóng** và chưa đủ tuổi hưởng trợ cấp hưu trí xã hội có thể nhận **trợ cấp hằng tháng** từ chính số tiền đã đóng, và được ngân sách đóng BHYT.
-- Luật có hẳn một chương về **chậm đóng, trốn đóng**. Công ty chậm đóng hoặc trốn đóng phải đóng đủ, cộng thêm **0,03%/ngày** trên số tiền chậm, trốn đóng.
+- Luật có quy định riêng về **chậm đóng, trốn đóng** (Điều 38–41). Công ty phải đóng đủ số tiền, cộng thêm **0,03%/ngày** tính trên số tiền và số ngày chậm đóng, trốn đóng. Trốn đóng còn có thể bị truy cứu trách nhiệm hình sự (Điều 41).
 
 **Mức hưởng lương hưu** (theo BHXH tỉnh Vĩnh Phúc giải thích luật): đủ 15 năm đóng – nam hưởng 40%, nữ hưởng 45% mức bình quân tiền lương đóng BHXH; đóng càng lâu tỷ lệ càng cao.
 
@@ -42,7 +42,7 @@ Công ty đóng phần của công ty **và** trừ phần của bạn từ lư�
 - Hợp đồng **từ đủ 1 tháng trở lên** đã phải đóng BHTN (trước đây là từ đủ 3 tháng).
 - **Mức trợ cấp** mỗi tháng bằng 60% bình quân tiền lương tháng đóng BHTN của 6 tháng gần nhất, **tối đa không quá 5 lần lương tối thiểu vùng** (Điều 39 khoản 1).
 - **Thời điểm hưởng:** “ngày làm việc thứ 11 kể từ ngày nộp đủ hồ sơ” (Điều 39 khoản 3). Một số bài viết trên mạng ghi “ngày thứ 16” – đó là quy định cũ của Luật Việc làm 2013.
-- Hợp đồng từ 1 đến dưới 12 tháng: cần đóng đủ 12 tháng trong 36 tháng trước khi nghỉ việc. <span class="tag chk">Đang đối chiếu nguyên văn</span>
+- **Điều kiện hưởng** (Điều 38): đã đóng BHTN từ đủ 12 tháng trong 24 tháng trước khi nghỉ việc (hợp đồng từ 1 đến dưới 12 tháng: đủ 12 tháng trong 36 tháng); không tự ý nghỉ việc trái luật; và **nộp đủ hồ sơ trong vòng 3 tháng** kể từ ngày chấm dứt hợp đồng.
 
 ## 4. Người không thuộc diện đóng bảo hiểm bắt buộc
 
@@ -57,6 +57,6 @@ Một số người lao động (ví dụ một số trường hợp người la
 3. **So sánh:** tháng nào phiếu lương có trừ bảo hiểm mà quá trình đóng không có, hoặc mức lương đóng thấp hơn lương trong hợp đồng – ghi lại.
 4. **Hỏi phòng nhân sự bằng văn bản**, giữ lại bản hỏi và câu trả lời.
 5. **Không được giải quyết:** gửi phản ánh kèm bằng chứng tới cơ quan BHXH nơi công ty đóng, hoặc Sở Nội vụ tỉnh/thành phố. Xem [Giữ bằng chứng và khiếu nại đúng cách](../giu-bang-chung/).
-6. **Mất việc:** nộp hồ sơ hưởng trợ cấp thất nghiệp càng sớm càng tốt tại trung tâm dịch vụ việc làm. <span class="tag chk">Thời hạn nộp hồ sơ đang đối chiếu</span>
+6. **Mất việc:** nộp hồ sơ hưởng trợ cấp thất nghiệp **trong vòng 3 tháng** kể từ ngày nghỉ việc – quá hạn là mất quyền hưởng lần đó. Nơi nộp: trung tâm dịch vụ việc làm.
 
 <p class="note">Lao động tự do, nông dân cũng có thể tham gia <b>BHXH tự nguyện</b>. Bài riêng cho nhóm này đang được biên soạn.</p>

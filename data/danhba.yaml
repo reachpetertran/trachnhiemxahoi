@@ -1,92 +1,139 @@
-# Trục 3 – "Gọi ai ngay". checked = ngày tra cứu gần nhất.
-# status: ok (đã đối chiếu nguồn gốc/cơ quan nhà nước) | check (mới thấy ở nguồn thứ cấp – hiện nhãn "đang đối chiếu")
-# Mục chưa xác minh được KHÔNG có số điện thoại, nằm ở danh sách pending.
+# Trục 3 – "Gọi ai ngay". status: ok | check. Mục chưa xác minh KHÔNG có số điện thoại.
 sections:
-  - title: Khẩn cấp tại Việt Nam
-    items:
-      - name: Công an
-        phone: "113"
-        what: Bị đe dọa, bị giam giữ, bị hành hung, phát hiện tội phạm.
-        note: Miễn cước. Đang có đề xuất gộp các số khẩn cấp; tháng 11/2026 các số 113, 114, 115 vẫn gọi được.
-        src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
-        status: ok
-      - name: Cứu hỏa, cứu nạn
-        phone: "114"
-        what: Cháy nổ, sập đổ, người mắc kẹt.
-        note: Miễn cước.
-        src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
-        status: ok
-      - name: Cấp cứu y tế
-        phone: "115"
-        what: Tai nạn lao động, ngộ độc, ngất, chấn thương nặng.
-        note: Miễn cước.
-        src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
-        status: ok
-      - name: Tổng đài quốc gia bảo vệ trẻ em và phòng, chống mua bán người
-        phone: "111"
-        what: Trẻ em bị xâm hại, bị bắt đi làm; người bị lừa bán, bị ép làm việc (cả trong nước và ở nước ngoài).
-        note: 24/7, miễn phí. Từ 01/7/2025, số 111 cũng là tổng đài tiếp nhận tố giác mua bán người (Nghị định 162/2025/NĐ-CP, Điều 4).
-        src: https://tongdai111.vn/
-        status: ok
-  - title: Hỏi luật, khiếu nại tại Việt Nam
-    items:
-      - name: Trung tâm Trợ giúp pháp lý nhà nước (tỉnh, thành phố)
-        phone: ""
-        what: Luật sư/trợ giúp viên pháp lý miễn phí cho người thuộc diện được trợ giúp (hộ nghèo, trẻ em, người khuyết tật có khó khăn tài chính, nạn nhân mua bán người, nạn nhân bạo lực gia đình…).
-        note: Thuộc Sở Tư pháp tỉnh/thành phố. Từ 01/01/2027 mở rộng thêm cho hộ cận nghèo, người khuyết tật và một số người lao động thu nhập thấp (Luật 05/2026/QH16). Công nhân trong tranh chấp lao động thông thường không tự động được miễn phí, trừ khi thuộc một diện trên.
-        src: https://tgpl.moj.gov.vn/
-        status: ok
-      - name: Sở Nội vụ tỉnh/thành phố; UBND xã/phường
-        phone: ""
-        what: Nơi nhận phản ánh về lương, hợp đồng, an toàn lao động; cử hòa giải viên lao động.
-        note: Từ 01/7/2025, việc trước đây do Phòng LĐ-TB&XH huyện làm đã chuyển về Sở Nội vụ và UBND cấp xã (Nghị định 129/2025/NĐ-CP).
-        src: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-129-2025-ND-CP-phan-dinh-tham-quyen-chinh-quyen-02-cap-linh-vuc-quan-ly-cua-Bo-Noi-vu-660603.aspx
-        status: ok
-  - title: Đài Loan
-    items:
-      - name: Đường dây 1955 (Bộ Lao động Đài Loan)
-        phone: "1955"
-        what: Tư vấn luật lao động, khiếu nại tranh chấp, bị ngược đãi, bạo lực, nghi bị mua bán người; có phiên dịch.
-        note: 24 giờ, 365 ngày, miễn phí, có tiếng Việt.
-        src: https://www.wda.gov.tw/en/News_Content.aspx?n=179&s=13551
-        status: ok
-  - title: Nhật Bản
-    items:
-      - name: OTIT – tư vấn tiếng Việt cho thực tập sinh kỹ năng
-        phone: "0120-250-168"
-        what: Bị nợ lương, bị ép làm thêm, bị bạo lực, muốn đổi nơi thực tập.
-        note: Miễn phí. Giờ làm việc ở các nguồn đang khác nhau – xem lịch mới nhất trên otit.go.jp.
-        src: https://www.otit.go.jp/
-        status: ok
-      - name: Tổng đài thông tin lưu trú cho người nước ngoài (Bộ Tư pháp Nhật)
-        phone: "0570-013904"
-        what: Hỏi về thẻ lưu trú, visa, thủ tục xuất nhập cảnh.
-        note: Có tiếng Việt. Số in trong Sổ tay thực tập sinh do OTIT phát hành.
-        src: https://www.otit.go.jp/
-        status: ok
-      - name: Tư vấn cho lao động nước ngoài (Bộ Lao động Nhật)
-        phone: "0570-001706"
-        what: Hỏi về điều kiện lao động, tiền lương.
-        note: Có tiếng Việt, có tính cước. Giờ hoạt động đang được đối chiếu. Số in trong Sổ tay thực tập sinh do OTIT phát hành.
-        src: https://www.otit.go.jp/
-        status: ok
-  - title: Hàn Quốc
-    items:
-      - name: Trung tâm tư vấn cho lao động nước ngoài (HRD Korea)
-        phone: "1577-0071"
-        what: Lao động EPS hỏi về hợp đồng, đổi nơi làm, khiếu nại.
-        note: Đa ngôn ngữ, có tiếng Việt. Số này mới được đối chiếu qua nguồn thứ cấp.
-        src: https://www.eps.go.kr/
-        status: check
-      - name: Bộ Việc làm và Lao động Hàn Quốc
-        phone: "1350"
-        what: Khiếu nại về lương, điều kiện làm việc.
-        note: Có tính cước. Mới đối chiếu qua nguồn thứ cấp.
-        src: https://www.moel.go.kr/
-        status: check
+- title: Khẩn cấp tại Việt Nam
+  items:
+  - name: Công an
+    phone: '113'
+    what: Bị đe dọa, bị giam giữ, bị hành hung, phát hiện tội phạm.
+    note: Miễn cước. Đang có đề xuất gộp các số khẩn cấp; tháng 11/2026 các số 113, 114, 115 vẫn gọi được.
+    src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
+    status: ok
+    name_en: Police
+    what_en: Threats, being held against your will, assault, reporting a crime.
+    note_en: Free call. Merging emergency numbers has been proposed; in November 2026 numbers 113, 114 and 115 still work.
+  - name: Cứu hỏa, cứu nạn
+    phone: '114'
+    what: Cháy nổ, sập đổ, người mắc kẹt.
+    note: Miễn cước.
+    src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
+    status: ok
+    name_en: Fire and rescue
+    what_en: Fire, explosion, collapse, people trapped.
+    note_en: Free call.
+  - name: Cấp cứu y tế
+    phone: '115'
+    what: Tai nạn lao động, ngộ độc, ngất, chấn thương nặng.
+    note: Miễn cước.
+    src: https://thuvienphapluat.vn/phap-luat/goi-den-cac-dau-so-khan-cap-nhu-113-114-115-thi-co-duoc-mien-phi-cuoc-dien-thoai-hay-khong-23081.html
+    status: ok
+    name_en: Medical emergency
+    what_en: Work accidents, poisoning, fainting, serious injury.
+    note_en: Free call.
+  - name: Tổng đài quốc gia bảo vệ trẻ em và phòng, chống mua bán người
+    phone: '111'
+    what: Trẻ em bị xâm hại, bị bắt đi làm; người bị lừa bán, bị ép làm việc (cả trong nước và ở nước ngoài).
+    note: 24/7, miễn phí. Từ 01/7/2025, số 111 cũng là tổng đài tiếp nhận tố giác mua bán người (Nghị định 162/2025/NĐ-CP, Điều 4).
+    src: https://tongdai111.vn/
+    status: ok
+    name_en: National hotline for child protection and anti-trafficking
+    what_en: A child is abused or made to work; a person is tricked, sold or forced to work (in Vietnam or abroad).
+    note_en: 24/7, free. Since 1 July 2025, 111 is also the national line for reporting human trafficking (Decree 162/2025/NĐ-CP, Article 4).
+  title_en: Emergencies in Vietnam
+- title: Hỏi luật, khiếu nại tại Việt Nam
+  items:
+  - name: Trung tâm Trợ giúp pháp lý nhà nước (tỉnh, thành phố)
+    phone: ''
+    what: Luật sư/trợ giúp viên pháp lý miễn phí cho người thuộc diện được trợ giúp (hộ nghèo, trẻ em, người khuyết tật có khó khăn tài chính, nạn nhân mua bán người, nạn nhân bạo lực gia đình…).
+    note: Thuộc Sở Tư pháp tỉnh/thành phố. Từ 01/01/2027 mở rộng thêm cho hộ cận nghèo, người khuyết tật và một số người lao động thu nhập thấp (Luật 05/2026/QH16). Công nhân trong tranh chấp lao động thông
+      thường không tự động được miễn phí, trừ khi thuộc một diện trên.
+    src: https://tgpl.moj.gov.vn/
+    status: ok
+    name_en: State Legal Aid Centre (each province or city)
+    what_en: Free lawyers or legal aid officers for eligible people (poor households, children, people with disabilities in financial hardship, trafficking victims, victims of domestic violence…).
+    note_en: Under the provincial Department of Justice. From 1 January 2027 eligibility widens to near-poor households, people with disabilities and some low-income workers (Law 05/2026/QH16). Workers
+      in ordinary labour disputes are not automatically eligible.
+  - name: Sở Nội vụ tỉnh/thành phố; UBND xã/phường
+    phone: ''
+    what: Nơi nhận phản ánh về lương, hợp đồng, an toàn lao động; cử hòa giải viên lao động.
+    note: Từ 01/7/2025, việc trước đây do Phòng LĐ-TB&XH huyện làm đã chuyển về Sở Nội vụ và UBND cấp xã (Nghị định 129/2025/NĐ-CP).
+    src: https://thuvienphapluat.vn/van-ban/Bo-may-hanh-chinh/Nghi-dinh-129-2025-ND-CP-phan-dinh-tham-quyen-chinh-quyen-02-cap-linh-vuc-quan-ly-cua-Bo-Noi-vu-660603.aspx
+    status: ok
+    name_en: Provincial Department of Home Affairs; commune or ward People's Committee
+    what_en: Where to report problems with wages, contracts and workplace safety; appoints labour mediators.
+    note_en: Since 1 July 2025, tasks of the former district labour offices moved to the provincial Department of Home Affairs and commune-level People's Committees (Decree 129/2025/NĐ-CP).
+  title_en: Legal help and complaints in Vietnam
+- title: Đài Loan
+  items:
+  - name: Đường dây 1955 (Bộ Lao động Đài Loan)
+    phone: '1955'
+    what: Tư vấn luật lao động, khiếu nại tranh chấp, bị ngược đãi, bạo lực, nghi bị mua bán người; có phiên dịch.
+    note: 24 giờ, 365 ngày, miễn phí, có tiếng Việt.
+    src: https://www.wda.gov.tw/en/News_Content.aspx?n=179&s=13551
+    status: ok
+    name_en: 1955 Hotline (Taiwan Ministry of Labor)
+    what_en: Labour law advice, disputes, abuse, violence, suspected trafficking; interpreting available.
+    note_en: 24 hours, 365 days, free, Vietnamese available.
+  title_en: Taiwan
+- title: Nhật Bản
+  items:
+  - name: OTIT – tư vấn tiếng Việt cho thực tập sinh kỹ năng
+    phone: 0120-250-168
+    what: Bị nợ lương, bị ép làm thêm, bị bạo lực, muốn đổi nơi thực tập.
+    note: Miễn phí. Giờ làm việc ở các nguồn đang khác nhau – xem lịch mới nhất trên otit.go.jp.
+    src: https://www.otit.go.jp/
+    status: ok
+    name_en: OTIT – Vietnamese-language advice for technical intern trainees
+    what_en: Unpaid wages, forced overtime, violence, wanting to change workplace.
+    note_en: Free. Sources give different opening hours – check the latest on otit.go.jp.
+  - name: Tổng đài thông tin lưu trú cho người nước ngoài (Bộ Tư pháp Nhật)
+    phone: 0570-013904
+    what: Hỏi về thẻ lưu trú, visa, thủ tục xuất nhập cảnh.
+    note: Có tiếng Việt. Số in trong Sổ tay thực tập sinh do OTIT phát hành.
+    src: https://www.otit.go.jp/
+    status: ok
+    name_en: Foreign Residents Support line (Immigration, Japan Ministry of Justice)
+    what_en: Residence cards, visas, immigration procedures.
+    note_en: Vietnamese available. Number printed in the trainee handbook published by OTIT.
+  - name: Tư vấn cho lao động nước ngoài (Bộ Lao động Nhật)
+    phone: 0570-001706
+    what: Hỏi về điều kiện lao động, tiền lương.
+    note: Có tiếng Việt, có tính cước. Giờ hoạt động đang được đối chiếu. Số in trong Sổ tay thực tập sinh do OTIT phát hành.
+    src: https://www.otit.go.jp/
+    status: ok
+    name_en: Advice line for foreign workers (Japan Ministry of Health, Labour and Welfare)
+    what_en: Working conditions, wages.
+    note_en: Vietnamese available; call charges apply. Opening hours being checked. Number printed in the trainee handbook published by OTIT.
+  title_en: Japan
+- title: Hàn Quốc
+  items:
+  - name: Trung tâm tư vấn cho lao động nước ngoài (HRD Korea)
+    phone: 1577-0071
+    what: Lao động EPS hỏi về hợp đồng, đổi nơi làm, khiếu nại.
+    note: Đa ngôn ngữ, có tiếng Việt. Số này mới được đối chiếu qua nguồn thứ cấp.
+    src: https://www.eps.go.kr/
+    status: check
+    name_en: Counselling Centre for Foreign Workers (HRD Korea)
+    what_en: 'EPS workers: contracts, changing workplace, complaints.'
+    note_en: Multilingual, including Vietnamese. Confirmed only through secondary sources so far.
+  - name: Bộ Việc làm và Lao động Hàn Quốc
+    phone: '1350'
+    what: Khiếu nại về lương, điều kiện làm việc.
+    note: Có tính cước. Mới đối chiếu qua nguồn thứ cấp.
+    src: https://www.moel.go.kr/
+    status: check
+    name_en: Korea Ministry of Employment and Labor
+    what_en: Complaints about wages and working conditions.
+    note_en: Call charges apply. Confirmed only through secondary sources so far.
+  title_en: Korea
 pending:
-  - Đường dây tư vấn pháp luật của tổ chức Công đoàn
-  - Tổng đài Bảo hiểm xã hội Việt Nam và hướng dẫn ứng dụng VssID
-  - Số điện thoại Trung tâm Trợ giúp pháp lý từng tỉnh, thành phố
-  - Ban Quản lý lao động / Đại sứ quán Việt Nam tại Nhật Bản, Đài Loan, Hàn Quốc, Malaysia, Trung Đông
-  - Các tổ chức phi chính phủ hỗ trợ nạn nhân mua bán người, trẻ em đường phố
+- Đường dây tư vấn pháp luật của tổ chức Công đoàn
+- Tổng đài Bảo hiểm xã hội Việt Nam và hướng dẫn ứng dụng VssID
+- Số điện thoại Trung tâm Trợ giúp pháp lý từng tỉnh, thành phố
+- Ban Quản lý lao động / Đại sứ quán Việt Nam tại Nhật Bản, Đài Loan, Hàn Quốc, Malaysia, Trung Đông
+- Các tổ chức phi chính phủ hỗ trợ nạn nhân mua bán người, trẻ em đường phố
+pending_en:
+- Legal advice lines of the trade union
+- Vietnam Social Security hotline and VssID app guide
+- Phone numbers of each provincial Legal Aid Centre
+- Vietnamese labour management boards and embassies in Japan, Taiwan, Korea, Malaysia and the Middle East
+- NGOs supporting trafficking victims and street children

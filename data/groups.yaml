@@ -1,42 +1,62 @@
 # Trục 1 – "Tôi là ai". status: active | soon | hidden (hidden = chưa hiện công khai)
 groups:
-  - code: cong-nhan
-    name: Công nhân và người làm nghề nặng nhọc, độc hại, nguy hiểm
-    short: Nhà máy, xưởng, công trường, mỏ, kho bãi, bốc xếp…
-    status: active
-  - code: lao-dong-nuoc-ngoai
-    name: Người Việt đi làm việc ở nước ngoài
-    short: Nhật Bản, Đài Loan, Hàn Quốc và các nước khác
-    status: active
-  - code: nong-dan
-    name: Nông dân, ngư dân
-    short: Bảo hiểm tự nguyện, an toàn hóa chất nông nghiệp
-    status: soon
-  - code: lao-dong-tu-do
-    name: Lao động tự do, làm thuê theo ngày
-    short: Shipper, phụ hồ, giúp việc, bán hàng rong…
-    status: soon
-  - code: tre-em
-    name: Trẻ em và người chưa thành niên đi làm
-    short: Tuổi được làm việc, việc bị cấm, ai bảo vệ em
-    status: soon
-  - code: mua-ban-nguoi
-    name: Người bị lừa, bị mua bán, bị ép làm việc
-    short: Nhận biết dấu hiệu, cách thoát, ai hỗ trợ
-    status: soon
-  - code: phu-nu
-    name: Phụ nữ bị bạo hành
-    short: Nơi tạm lánh, trợ giúp pháp lý, bảo vệ con
-    status: soon
-  - code: khuyet-tat
-    name: Người khuyết tật
-    short: Quyền đi làm, hỗ trợ, học nghề
-    status: soon
-  - code: suc-khoe-tam-than
-    name: Người có vấn đề sức khỏe tâm thần
-    short: Nhận biết sớm, nơi khám, người thân cần làm gì
-    status: soon
-  - code: tre-kho-khan
-    name: Trẻ mồ côi, trẻ không nơi nương tựa, trẻ trong gia đình khó khăn
-    short: Nợ nần, cờ bạc, bạo hành, bệnh tật trong nhà
-    status: soon
+- code: cong-nhan
+  name: Công nhân và người làm nghề nặng nhọc, độc hại, nguy hiểm
+  short: Nhà máy, xưởng, công trường, mỏ, kho bãi, bốc xếp…
+  status: active
+  name_en: Factory workers and people in heavy, hazardous or dangerous jobs
+  short_en: Factories, workshops, construction sites, mines, warehouses, loading…
+- code: lao-dong-nuoc-ngoai
+  name: Người Việt đi làm việc ở nước ngoài
+  short: Nhật Bản, Đài Loan, Hàn Quốc và các nước khác
+  status: active
+  name_en: Vietnamese people working abroad
+  short_en: Japan, Taiwan, Korea and other countries
+- code: nong-dan
+  name: Nông dân, ngư dân
+  short: Bảo hiểm tự nguyện, an toàn hóa chất nông nghiệp
+  status: soon
+  name_en: Farmers and fishers
+  short_en: Voluntary insurance, safe use of farm chemicals
+- code: lao-dong-tu-do
+  name: Lao động tự do, làm thuê theo ngày
+  short: Shipper, phụ hồ, giúp việc, bán hàng rong…
+  status: soon
+  name_en: Informal and day workers
+  short_en: Delivery riders, construction helpers, domestic workers, street vendors…
+- code: tre-em
+  name: Trẻ em và người chưa thành niên đi làm
+  short: Tuổi được làm việc, việc bị cấm, ai bảo vệ em
+  status: soon
+  name_en: Children and young people at work
+  short_en: Minimum age, banned work, who protects you
+- code: mua-ban-nguoi
+  name: Người bị lừa, bị mua bán, bị ép làm việc
+  short: Nhận biết dấu hiệu, cách thoát, ai hỗ trợ
+  status: soon
+  name_en: People deceived, trafficked or forced to work
+  short_en: Warning signs, how to get out, who helps
+- code: phu-nu
+  name: Phụ nữ bị bạo hành
+  short: Nơi tạm lánh, trợ giúp pháp lý, bảo vệ con
+  status: soon
+  name_en: Women facing violence
+  short_en: Safe shelter, legal aid, protecting children
+- code: khuyet-tat
+  name: Người khuyết tật
+  short: Quyền đi làm, hỗ trợ, học nghề
+  status: soon
+  name_en: People with disabilities
+  short_en: The right to work, support, vocational training
+- code: suc-khoe-tam-than
+  name: Người có vấn đề sức khỏe tâm thần
+  short: Nhận biết sớm, nơi khám, người thân cần làm gì
+  status: soon
+  name_en: People with mental health conditions
+  short_en: Early signs, where to get care, what families can do
+- code: tre-kho-khan
+  name: Trẻ mồ côi, trẻ không nơi nương tựa, trẻ trong gia đình khó khăn
+  short: Nợ nần, cờ bạc, bạo hành, bệnh tật trong nhà
+  status: soon
+  name_en: Orphans, children without care, children in families in crisis
+  short_en: Debt, gambling, violence, illness at home

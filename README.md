@@ -2,6 +2,7 @@
 
 Mã nguồn website **Trách Nhiệm Xã Hội** – biết luật, biết nơi nhờ giúp, cho người lao động.
 
+- Song ngữ: tiếng Việt `/`, tiếng Anh `/en/`.
 - Trang tĩnh (HTML/CSS), không đăng nhập, không cookie, không công cụ theo dõi, không tải mã hay phông chữ bên ngoài.
 - Nội dung tự viết: CC BY-NC-SA 4.0. Văn bản pháp luật trích dẫn không thuộc đối tượng bảo hộ quyền tác giả.
 
@@ -10,7 +11,9 @@ Mã nguồn website **Trách Nhiệm Xã Hội** – biết luật, biết nơi 
 data/groups.yaml       Trục 1 – Tôi là ai (nhóm người đọc)
 data/situations.yaml   Trục 2 – Tôi đang gặp chuyện gì
 data/danhba.yaml       Trục 3 – Gọi ai (chỉ số đã đối chiếu nguồn)
-content/bai/*.md       bài đã đăng (front matter: summary, sources, checked, upcoming)
+content/bai/*.md       bài tiếng Việt đã đăng
+content/en/*.md        bài tiếng Anh (pair: slug bài tiếng Việt)
+_build/art/logo_art.py sinh logo
 content/nhap/          bài nháp nhạy cảm – KHÔNG đưa lên GitHub (.gitignore)
 _build/build.py        sinh public/ ; --preview sinh preview/ có cả bài nháp
 public/                Cloudflare Pages phục vụ thư mục này
