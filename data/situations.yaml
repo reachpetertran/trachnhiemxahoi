@@ -33,6 +33,12 @@ situations:
 - q: Không được khám sức khỏe, khám bệnh nghề nghiệp
   to: an-toan-ve-sinh-lao-dong
   q_en: No health checks or occupational disease screening
+- q: Tôi bị tai nạn lao động – công ty phải trả gì?
+  q_en: I had a work accident – what must the employer pay?
+  to: tai-nan-lao-dong
+- q: Tôi làm ở nhà máy nhưng ký hợp đồng với công ty dịch vụ (thuê ngoài, thuê lại)
+  q_en: I work in a factory but my contract is with an agency (outsourced, leased)
+  to: lao-dong-thue-lai
 - q: Sắp đi làm ở nước ngoài – sợ bị lừa, bị thu phí cao
   to: di-lam-viec-o-nuoc-ngoai
   q_en: Going to work abroad – afraid of scams and high fees
