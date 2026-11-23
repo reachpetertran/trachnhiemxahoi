@@ -1,13 +1,14 @@
 # TIẾN ĐỘ – trachnhiemxahoi.com
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
-Cập nhật gần nhất: 23/11/2026 (phiên 3).
+Cập nhật gần nhất: 23/11/2026 (phiên 4).
 
 ## 1. Trạng thái hiện tại – v0.3, ĐANG CHẠY THẬT
 - Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã chạy. Bản dự phòng: https://trachnhiemxahoi-web.pages.dev
 - Song ngữ: tiếng Việt ở `/`, tiếng Anh ở `/en/`. Mỗi trang có nút chuyển ngôn ngữ và thẻ hreflang.
 - Logo: đã thiết kế, cùng họ huy hiệu với daynentang và kynanglamviec (mũ bảo hộ đặt trên sách mở; phía sau là nhà máy, ruộng bậc thang, máy bay).
 - 8 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt.
+- **Khung chương trình** (phiên 4): VI `/khung-chuong-trinh/`, EN `/en/curriculum/`, có trên menu và trang chủ. 6 phần, 19 bài (8 đã đăng, 11 "Sắp có") + Phần 7 các nhóm giai đoạn sau. Dữ liệu: `data/curriculum.yaml` (slug = bài đã đăng; t/t_en = bài dự kiến). Bài nháp nhạy cảm KHÔNG đưa vào khung.
 
 ## 2. Hạ tầng
 - Cloudflare: tài khoản Reach.petertran@gmail.com (account f9970afd818f540f45e8ef101099de6a), gói Free ($0).
@@ -23,6 +24,7 @@ Cập nhật gần nhất: 23/11/2026 (phiên 3).
 ```
 data/groups.yaml        Trục 1 "Tôi là ai" – name/short (+ name_en/short_en); status active|soon|hidden
 data/situations.yaml    Trục 2 "Tôi gặp chuyện gì" – q (+ q_en), to = slug bài tiếng Việt hoặc "danh-ba"
+data/curriculum.yaml    Khung chương trình – modules (title, goals, lessons: slug | t/t_en)
 data/danhba.yaml        Trục 3 "Gọi ai" – status ok|check; trường *_en; pending + pending_en
 content/bai/*.md        bài tiếng Việt (front matter: slug, order, status, title, short, groups, checked, summary, sources, upcoming)
 content/en/*.md         bài tiếng Anh, có thêm `pair:` = slug bài tiếng Việt tương ứng
@@ -31,7 +33,7 @@ _build/build.py         sinh public/ (song ngữ, sitemap, 404); --preview sinh 
 _build/art/logo_art.py  sinh logo.svg, logo-khong-chu.svg, logo-icon.svg, favicon.svg (chữ đã chuyển thành nét, font Inter Bold)
 _build/static/          CSS, logo, PNG (logo-512/1024, logo-icon-512, apple-touch-icon), _headers, robots.txt
 ```
-Đường dẫn: VI `bai/ nhom/ tinh-huong/ danh-ba/ gioi-thieu/` – EN `en/articles/ en/groups/ en/situations/ en/contacts/ en/about/`.
+Đường dẫn: VI `bai/ nhom/ tinh-huong/ danh-ba/ khung-chuong-trinh/ gioi-thieu/` – EN `en/articles/ en/groups/ en/situations/ en/contacts/ en/curriculum/ en/about/`.
 
 ## 4. Bài đã đăng (VI ↔ EN)
 | # | Tiếng Việt | English | Văn bản chính |
@@ -43,7 +45,7 @@ _build/static/          CSS, logo, PNG (logo-512/1024, logo-icon-512, apple-touc
 | 5 | di-lam-viec-o-nuoc-ngoai | working-abroad | Luật 69/2020 Đ23; TT 21/2021 (Đài Loan 1.500 TWD/tháng); Luật PCMBN 53/2024; NĐ 162/2025 |
 | 6 | giu-bang-chung | keep-evidence | BLLĐ Đ95.3, 188, 190; NĐ 129/2025; Luật TGPL 11/2017 Đ7 + Luật 05/2026 |
 | 7 | tai-nan-lao-dong | work-accidents | Luật ATVSLĐ Đ34, 38–40, 45, 48, 49 (không bị Luật BHXH 2024 sửa); TT 60/2025-BYT |
-| 8 | lao-dong-thue-lai | leased-workers | BLLĐ Đ52–58, 188; NĐ 145/2020 Đ21, 30, Phụ lục II (danh mục 20 công việc lấy từ thư viện audit – đang đối chiếu bản phụ lục gốc) |
+| 8 | lao-dong-thue-lai | leased-workers | BLLĐ Đ52–58, 188; NĐ 145/2020 Đ21, 30, Phụ lục II (bảng 20 công việc nguyên văn, ĐÃ đối chiếu 23/11/2026 với toàn văn trên vanban.vcci.com.vn + bài TVPL Peter gửi); hộp Sắp thay đổi: dự thảo Bộ Nội vụ 7/2026 thay Phụ lục II (dòng 5 thêm "trưng bày và đóng gói sản phẩm") |
 
 Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính thức, văn bản tiếng Việt có giá trị.
 
@@ -59,7 +61,7 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
   - TT 02/2024/TT-BLĐTBXH (mức trần giá dịch vụ môi giới XKLĐ). Bài 5 đã bỏ bảng "0 đồng", gắn hộp "đang đối chiếu văn bản thay thế".
   - TT 29/2021/TT-BLĐTBXH (phân loại điều kiện lao động; TT 24/2022 dẫn chiếu). Bài 2 gắn nhãn "Đang đối chiếu văn bản thay thế".
   - NĐ 12/2022/NĐ-CP (xử phạt lao động). Chưa dùng trong bài.
-- Nhãn "Đang đối chiếu" còn lại: Phụ lục II NĐ 145/2020 (file docx/doc trong thư mục không có phụ lục); phí môi giới XKLĐ; điều kiện TT 24/2022; chế độ 育成就労 Nhật (khóa A1 100 giờ); số Hàn Quốc 1577-0071, 1350; Cục QLLĐNN thuộc Bộ Nội vụ (NĐ 25/2025 chưa có trong thư mục).
+- Nhãn "Đang đối chiếu" còn lại: phí môi giới XKLĐ; điều kiện TT 24/2022; chế độ 育成就労 Nhật (khóa A1 100 giờ); số Hàn Quốc 1577-0071, 1350; Cục QLLĐNN thuộc Bộ Nội vụ (NĐ 25/2025 chưa có trong thư mục).
 
 ## 6. Nháp chờ Peter duyệt (chủ đề nhạy cảm chính trị)
 - `content/nhap/dai-dien-nguoi-lao-dong.md`: Luật Công đoàn 50/2024 + 97/2025, đối thoại Đ63–64, đình công Chương XIV, công ước ILO (VN chưa phê chuẩn C87). Khi duyệt: cập nhật kinh phí công đoàn theo NĐ 105/2026; trích nguyên văn Chương XIII, XIV.
@@ -73,12 +75,14 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 ## 8. Quyết định của Peter
 - 18/11/2026: tiếng Việt, đa quốc gia; chủ đề nhạy cảm chỉ dẫn luật VN + ILO, Peter duyệt từng bài; giai đoạn 1 = khung + 5–8 bài lõi; được đăng web, sửa DNS; mọi khoản tốn tiền phải báo trước.
 - 18/11/2026 (phiên 2): web song ngữ Việt – Anh như các dự án khác; Claude thiết kế logo; Claude được chạy luôn sau khi dựng xong.
+- 23/11/2026 (phiên 4): Peter yêu cầu có khung chương trình sẵn trên web; song ngữ Anh–Việt cho TẤT CẢ bài (bài mới luôn viết cả 2 bản).
 - 23/11/2026 (phiên 3): nối Pages với GitHub; Peter cấp quyền cho Claude mọi tác vụ của dự án (soạn và đăng). Vẫn giữ: chủ đề nhạy cảm chính trị phải để nháp chờ duyệt; khoản tốn tiền phải báo trước.
 
 ## 9. Việc tiếp theo (theo thứ tự)
-1. Peter gửi số hiệu văn bản thay thế TT 02/2024, TT 29/2021, NĐ 12/2022 → cập nhật bài 2 và bài 5. Gửi thêm bản Phụ lục II NĐ 145/2020 để gỡ nhãn ở bài 8.
+0. Lưu ý kỹ thuật: thuvienphapluat.vn chặn công cụ đọc web và trình duyệt tự động (Cloudflare). Lấy toàn văn ở vanban.vcci.com.vn hoặc nhờ Peter gửi file.
+1. Peter gửi số hiệu văn bản thay thế TT 02/2024, TT 29/2021, NĐ 12/2022 → cập nhật bài 2 và bài 5.
 2. Peter duyệt bài nháp dai-dien-nguoi-lao-dong.
 3. Xác minh danh bạ còn thiếu.
 4. Bài tiếp theo: lao động chưa thành niên (BLLĐ Chương XI – cần TT 09/2020/TT-BLĐTBXH); BHXH tự nguyện (Luật BHXH 2024 – cần nghị định hướng dẫn mức hỗ trợ); quản lý tiền, tránh vay qua app; trợ cấp thôi việc, mất việc (BLLĐ Đ46, 47).
-5. Định kỳ: rà lương tối thiểu vào tháng 11–12; theo dõi luật sửa BLLĐ và Luật ATVSLĐ (Quốc hội khóa XVI); Nhật Bản 育成就労 từ 01/4/2027.
+5. Định kỳ: theo dõi dự thảo sửa NĐ 145/2020 (Bộ Nội vụ, 7/2026) – khi ban hành, cập nhật bảng Phụ lục II bài 8; rà lương tối thiểu vào tháng 11–12; theo dõi luật sửa BLLĐ và Luật ATVSLĐ (Quốc hội khóa XVI); Nhật Bản 育成就労 từ 01/4/2027.
 6. (Tùy chọn) Xóa Pages project cũ `trachnhiemxahoi`.

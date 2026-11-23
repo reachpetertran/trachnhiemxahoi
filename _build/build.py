@@ -32,6 +32,7 @@ def y(p):
 GROUPS = y("data/groups.yaml")["groups"]
 SITU = y("data/situations.yaml")["situations"]
 DIR = y("data/danhba.yaml")
+CUR = y("data/curriculum.yaml")
 
 
 def md(t):
@@ -56,8 +57,8 @@ def load(folder, drafts=None):
 LANGS = {
     "vi": dict(
         code="vi", pre="", name="Trách Nhiệm Xã Hội", tag="Biết luật, biết nơi nhờ giúp – cho người lao động",
-        p=dict(groups="nhom/", sit="tinh-huong/", dir="danh-ba/", arts="bai/", about="gioi-thieu/"),
-        nav=["Tôi là ai", "Tôi gặp chuyện gì", "Gọi ai", "Tất cả bài", "Giới thiệu"],
+        p=dict(groups="nhom/", sit="tinh-huong/", dir="danh-ba/", arts="bai/", cur="khung-chuong-trinh/", about="gioi-thieu/"),
+        nav=["Tôi là ai", "Tôi gặp chuyện gì", "Gọi ai", "Tất cả bài", "Khung chương trình", "Giới thiệu"],
         sos='Nguy hiểm ngay? Gọi <a href="tel:113">113</a> công an · <a href="tel:115">115</a> cấp cứu · <a href="tel:111">111</a> trẻ em, mua bán người',
         sos_link="Danh bạ hỗ trợ →", switch="English", skip="Bỏ qua, tới nội dung",
         foot1="– trang tự học miễn phí, phi lợi nhuận, không đăng nhập, không quảng cáo, không theo dõi. Người biên soạn: Liêm.",
@@ -74,8 +75,8 @@ LANGS = {
     ),
     "en": dict(
         code="en", pre="en/", name="Trách Nhiệm Xã Hội", tag="Know the law, know where to get help – for workers",
-        p=dict(groups="en/groups/", sit="en/situations/", dir="en/contacts/", arts="en/articles/", about="en/about/"),
-        nav=["Who I am", "What's happening", "Who to call", "All articles", "About"],
+        p=dict(groups="en/groups/", sit="en/situations/", dir="en/contacts/", arts="en/articles/", cur="en/curriculum/", about="en/about/"),
+        nav=["Who I am", "What's happening", "Who to call", "All articles", "Curriculum", "About"],
         sos='In danger now? In Vietnam call <a href="tel:113">113</a> police · <a href="tel:115">115</a> ambulance · <a href="tel:111">111</a> children, trafficking',
         sos_link="Help contacts →", switch="Tiếng Việt", skip="Skip to content",
         foot1="– a free, non-profit self-study site. No login, no ads, no tracking. Compiled by Liêm.",
@@ -177,7 +178,7 @@ def group_card(L, g):
 HOME = {
     "vi": dict(h1="Biết luật để tự bảo vệ mình",
                lead="Trang này viết cho người làm việc nặng nhọc, độc hại, nguy hiểm, cho công nhân và người Việt đi làm ở nước ngoài. Bạn sẽ biết luật nói gì, cần làm gì từng bước, và gọi ai khi cần giúp. Hoàn toàn miễn phí.",
-               b1="Tôi đang gặp chuyện", b2="Gọi ai bây giờ?", h_sit="Bạn đang gặp chuyện gì?", all_sit="Xem tất cả tình huống →",
+               b1="Tôi đang gặp chuyện", cur="Muốn học từ đầu, theo thứ tự? Xem", b2="Gọi ai bây giờ?", h_sit="Bạn đang gặp chuyện gì?", all_sit="Xem tất cả tình huống →",
                h_grp="Bạn là ai?", h_how="Cách đọc một bài", how="""<p>Bài nào cũng đi theo cùng một thứ tự, để bạn đọc nhanh trên điện thoại:</p>
 <ol><li><b>Tóm tắt 3 dòng</b> – điều quan trọng nhất.</li><li><b>Luật nói gì</b> – trích đúng điều, khoản, số hiệu văn bản.</li>
 <li><b>Bạn làm gì</b> – từng bước cụ thể.</li><li><b>Gọi ai</b> – nơi hỗ trợ đã kiểm tra.</li><li><b>Đúng đến ngày</b> và <b>Sắp thay đổi</b>.</li></ol>""",
@@ -185,7 +186,7 @@ HOME = {
                logo_alt="Logo Trách Nhiệm Xã Hội"),
     "en": dict(h1="Know the law, protect yourself",
                lead="This site is for people in heavy, hazardous or dangerous jobs, for factory workers, and for Vietnamese people working abroad. You will learn what the law says, what to do step by step, and who to call for help. It is completely free. The English version helps auditors, NGOs, employers and anyone supporting Vietnamese workers.",
-               b1="Something is happening to me", b2="Who do I call?", h_sit="What is happening to you?", all_sit="See all situations →",
+               b1="Something is happening to me", cur="Want to learn step by step, from the start? See the", b2="Who do I call?", h_sit="What is happening to you?", all_sit="See all situations →",
                h_grp="Who are you?", h_how="How each article is built", how="""<p>Every article follows the same order, so it is quick to read on a phone:</p>
 <ol><li><b>In short</b> – the three most important points.</li><li><b>What the law says</b> – exact article, clause and document number.</li>
 <li><b>What you can do</b> – concrete steps.</li><li><b>Who to call</b> – checked support contacts.</li><li><b>Checked on</b> and <b>Coming changes</b>.</li></ol>""",
@@ -200,6 +201,7 @@ def home(L):
     body = f"""<section class="hero"><img class="hero-badge" src="{{{{R}}}}assets/logo.svg" alt="{H['logo_alt']}" width="190" height="203">
 <h1>{H['h1']}</h1><p class="lead">{H['lead']}</p>
 <p><a class="btn alt" href="{{{{R}}}}{L['p']['sit']}{{{{I}}}}">{H['b1']}</a><a class="btn" href="{{{{R}}}}{L['p']['dir']}{{{{I}}}}">{H['b2']}</a></p></section>
+<p class="note">{H['cur']} <a href="{{{{R}}}}{L['p']['cur']}{{{{I}}}}">{L['nav'][4]} →</a></p>
 <h2>{H['h_sit']}</h2><ul>{sit}</ul><p><a href="{{{{R}}}}{L['p']['sit']}{{{{I}}}}">{H['all_sit']}</a></p>
 <h2>{H['h_grp']}</h2><ul class="cards grid">{"".join(group_card(L, g) for g in visible())}</ul>
 <h2>{H['h_how']}</h2>{H['how']}<p class="note">{H['tags']}</p>"""
@@ -281,6 +283,45 @@ def articles(L):
         page(L, f'{L["p"]["arts"]}{a["slug"]}/', a["title"], body, alt, a["short"])
 
 
+def curriculum(L):
+    vi = L["code"] == "vi"
+    other = LANGS["en" if vi else "vi"]
+    key = L["code"]
+    done = total = 0
+    parts = []
+    for m in CUR["modules"]:
+        items = []
+        for ls in m["lessons"]:
+            total += 1
+            slug = ls.get("slug")
+            if slug:
+                assert slug in ART_BY["vi"], f"curriculum: không có bài {slug}"
+                s2 = slug if vi else EN_OF.get(slug)
+            if slug and s2 and s2 in ART_BY[key] and ART_BY[key][s2].get("status") == "published":
+                done += 1
+                a = ART_BY[key][s2]
+                items.append(f'<li><a class="card" href="{art_url(L, s2)}"><b>{e(a["title"])}</b><span class="muted small">{e(a["short"])}</span></a></li>')
+            else:
+                t = f(ls, "t", L) if not slug else ART_BY["vi"][slug]["title"]
+                items.append(f'<li><div class="card soon"><b>{e(t)}</b><span class="tag">{L["soon"]}</span></div></li>')
+        goals = "".join(f"<li>{e(g)}</li>" for g in (m["goals_en"] if not vi else m["goals"]))
+        parts.append(f'<h2>{e(f(m, "title", L))}</h2><div class="sum"><b>{"Học xong, bạn làm được" if vi else "When you finish, you can"}</b><ul>{goals}</ul></div><ul class="cards">{"".join(items)}</ul>')
+    later = [g for g in visible() if g["status"] == "soon"]
+    parts.append(f'<h2>{"Phần 7. Các nhóm người lao động khác (giai đoạn sau)" if vi else "Part 7. Other groups of workers (later stage)"}</h2>'
+                 f'<p>{"Mỗi nhóm sẽ có bộ bài riêng, viết theo cùng mẫu." if vi else "Each group will get its own set of lessons, in the same format."}</p>'
+                 f'<ul class="cards grid">{"".join(group_card(L, g) for g in later)}</ul>')
+    prog = (f"Đã đăng {done}/{total} bài trong Phần 1–6." if vi else f"{done} of {total} lessons in Parts 1–6 are published.")
+    how = ("<h2>Cách học mỗi bài</h2><ol><li>Đọc <b>Tóm tắt</b> trước.</li><li>Đọc <b>Luật nói gì</b>, đối chiếu với giấy tờ của bạn (hợp đồng, phiếu lương, sổ BHXH).</li>"
+           "<li>Làm theo <b>Bạn làm gì</b>, từng bước.</li><li>Lưu số ở <b>Gọi ai</b> vào điện thoại.</li><li>Xem <b>Đúng đến ngày</b>: luật có thể đã đổi.</li></ol>") if vi else (
+           "<h2>How to study each lesson</h2><ol><li>Read <b>In short</b> first.</li><li>Read <b>What the law says</b> and compare it with your own papers (contract, payslip, social insurance record).</li>"
+           "<li>Follow <b>What you can do</b>, step by step.</li><li>Save the numbers in <b>Who to call</b> on your phone.</li><li>Check the <b>Checked on</b> date: the law may have changed.</li></ol>")
+    body = (f"<h1>{L['nav'][4]}</h1><p class=lead>{e(CUR['intro'] if vi else CUR['intro_en'])}</p>"
+            f'<p class="meta">{prog}</p>' + "".join(parts) + how)
+    page(L, L["p"]["cur"], L["nav"][4], body, other["p"]["cur"],
+         "Khung chương trình tự học luật lao động miễn phí cho người lao động: hợp đồng, tiền lương, bảo hiểm, an toàn, đi làm ở nước ngoài." if vi
+         else "Free self-study curriculum on Vietnamese labour law for workers: contracts, pay, insurance, safety, working abroad.")
+
+
 ABOUT = {
     "vi": """<h1>Giới thiệu</h1><img class="hero-badge" src="{{R}}assets/logo.svg" alt="Logo Trách Nhiệm Xã Hội" width="190" height="203">
 <p class=lead><b>Trách Nhiệm Xã Hội</b> là trang tự học miễn phí, giúp người lao động biết luật để tự bảo vệ mình, biết nơi nhờ giúp, và có thêm kỹ năng tổ chức cuộc sống.</p>
@@ -327,7 +368,7 @@ Later: farmers, informal workers and other vulnerable groups – working childre
 
 def about(L):
     other = LANGS["en" if L["code"] == "vi" else "vi"]
-    page(L, L["p"]["about"], L["nav"][4], ABOUT[L["code"]], other["p"]["about"])
+    page(L, L["p"]["about"], L["nav"][5], ABOUT[L["code"]], other["p"]["about"])
 
 
 def main():
@@ -335,7 +376,7 @@ def main():
         shutil.rmtree(OUT)
     shutil.copytree(ROOT / "_build/static", OUT)
     for L in LANGS.values():
-        for fn in (home, groups, situations, directory, articles, about):
+        for fn in (home, groups, situations, directory, articles, curriculum, about):
             fn(L)
     V = LANGS["vi"]
     page(V, "404.html", V["t404"], f"<h1>{V['t404']}</h1><p>{V['m404']}</p><p lang='en'>{LANGS['en']['m404'].replace('{home}', '/en/').replace('{dir}', '/en/contacts/')}</p>", None)

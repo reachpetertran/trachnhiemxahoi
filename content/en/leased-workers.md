@@ -14,10 +14,20 @@ summary:
 sources:
   - t: Labour Code No. 45/2019/QH14, Articles 52–58 (checked against the original text 23/11/2026)
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
-  - t: Decree 145/2020/NĐ-CP, Article 21 (VND 2 billion deposit), Article 30 and Appendix II (jobs allowed for labour leasing) – in force; a 2026 amendment is in draft
-    u: https://thuvienphapluat.vn/van-ban/Lao-dong-Tien-luong/Nghi-dinh-145-2020-ND-CP-huong-dan-Bo-luat-Lao-dong-ve-dieu-kien-lao-dong-quan-he-lao-dong-459400.aspx
+  - t: Decree 145/2020/NĐ-CP of 14/12/2020 (in force from 01/02/2021), Article 21 (VND 2 billion deposit), Article 30 and Appendix II – in force; Appendix II checked word for word against the full text on 23/11/2026
+    u: https://vanban.vcci.com.vn/nghi-dinh-1452020nd-cp-huong-dan-bo-luat-lao-dong-ve-dieu-kien-lao-dong-va-quan-he-lao-dong
+  - t: Thư viện Pháp luật – List of 20 jobs for labour leasing in 2026 under Decree 145/2020 (secondary source, used for cross-checking; Vietnamese)
+    u: https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-muc-20-nganh-nghe-cho-thue-lai-lao-dong-2026-theo-nghi-dinh-1452020ndcp-chi-tiet-ra-sao-272530.html
+  - t: Ministry of Home Affairs – Draft Decree amending Decree 145/2020/NĐ-CP (published for comment July 2026, NOT yet issued; Vietnamese)
+    u: https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2026/Thang7/2.duthaonghidinh.pdf
 upcoming: |
-  The Labour Code amendment bill and a draft amendment to Decree 145/2020 are under review. **Not law yet.**
+  **Draft – not law yet.** In July 2026 the Ministry of Home Affairs published a draft decree amending Decree 145/2020 that would **replace Appendix II**. The list would still have 20 jobs, but three lines that businesses and inspectors read differently would be explained:
+
+  - Line 5 would become “Sales assistance: product introduction, product stocktaking, product display and packing.”
+  - Line 6: “Project support: project consulting, project management.”
+  - Line 8: telecommunications equipment would be listed in detail, “(excluding assembly of electrical equipment and electronic components)”.
+
+  The final decree may differ from the draft. We will update this page when an official text is issued. A bill amending the Labour Code is also before the National Assembly.
 ---
 
 <p class="note">Quotations of Vietnamese law below are <b>unofficial translations</b>. The Vietnamese text prevails.</p>
@@ -36,11 +46,40 @@ In plain words: **you sign with company A** but **work at company B**. A pays yo
 - Company B **may not** transfer you to another employer, and **may not** use workers supplied by an **unlicensed** company (Article 53(4)).
 - Company A must lodge a **VND 2 billion deposit** and hold a **labour leasing licence** (Article 54; Decree 145/2020, Article 21).
 
-## 3. Only certain jobs may be leased
+## 3. Only 20 jobs may be leased
 
-Decree 145/2020 (Appendix II) allows 20 jobs, including: interpreting, translation, shorthand; secretary, administrative assistant; reception; tour guiding; sales support; project support; programming production machinery systems; manufacturing and installing TV and telecom equipment; operating, inspecting and repairing construction machinery and production electrical systems; cleaning buildings and factories; document editing; bodyguard, security guard; telemarketing and phone customer care; financial and tax matters; car repair and testing; scanning, industrial technical drawing, interior decoration; driving; work on sea-going ships; on oil and gas rigs; on aircraft. <span class="tag chk">Being verified against the original appendix</span>
+> **Decree 145/2020/NĐ-CP, Article 30:** “The list of jobs allowed for labour leasing is set out in Appendix II issued with this Decree.”
 
-**Production line work** (sewing, assembly, packing…) is **not** on this list.
+**Appendix II – Jobs allowed for labour leasing** (unofficial translation of the full list): <span class="tag ok">Verified</span>
+
+| No. | Job |
+|---|---|
+| 1 | Interpreting / Translation / Shorthand |
+| 2 | Secretary / Administrative assistant |
+| 3 | Reception |
+| 4 | Tour guiding |
+| 5 | Sales support |
+| 6 | Project support |
+| 7 | Programming production machinery systems |
+| 8 | Manufacturing and installing television and telecommunications equipment |
+| 9 | Operating / inspecting / repairing construction machinery and production electrical systems |
+| 10 | Cleaning buildings and factories |
+| 11 | Document editing |
+| 12 | Bodyguard / Security guard |
+| 13 | Telemarketing / Customer care by phone |
+| 14 | Handling financial and tax matters |
+| 15 | Car repair / Testing car operation |
+| 16 | Scanning, industrial technical drawing / Interior decoration |
+| 17 | Driving |
+| 18 | Managing, operating, maintaining and serving on sea-going ships |
+| 19 | Managing, supervising, operating, repairing, maintaining and serving on oil and gas rigs |
+| 20 | Piloting aircraft, serving on aircraft / Maintaining and repairing aircraft and aircraft equipment / Flight dispatch and operations / Flight supervision |
+
+**Quick self-check:** is the work you do every day on these 20 lines?
+
+- **Production line work** (sewing, assembly, packing, weaving, food processing…) is **not** on the current list.
+- Your job title on paper (for example “support staff”) matters less than **the work you actually do**. Write down your daily tasks.
+- Using leased workers for jobs outside the list is **the company's violation**, not your fault. You keep your full rights to wages, insurance and other entitlements.
 
 ## 4. Equal pay and equal treatment
 

@@ -1,0 +1,97 @@
+# Khung chương trình – lộ trình học theo phần.
+# Mỗi bài: slug = slug bài tiếng Việt đã đăng (tự lấy tiêu đề, tự nối bản tiếng Anh),
+#          hoặc t/t_en = bài dự kiến (hiện nhãn "Sắp có", không có link).
+# Bài nhạy cảm chính trị và nhóm nhạy cảm cao KHÔNG đưa vào đây khi Peter chưa duyệt.
+intro: >-
+  Học theo thứ tự từ Phần 1. Mỗi phần có mục tiêu: học xong, bạn làm được những việc ghi ở đó.
+  Bài có đường dẫn là bài đã đăng; bài “Sắp có” đang được biên soạn.
+intro_en: >-
+  Work through the parts in order, starting with Part 1. Each part has goals: when you finish it, you should be able to do the things listed.
+  Lessons with a link are published; “Coming soon” lessons are being written.
+modules:
+- title: "Phần 1. Hợp đồng và tiền lương"
+  title_en: "Part 1. Contracts and pay"
+  goals:
+    - Kiểm tra được hợp đồng của mình có đủ nội dung, đúng loại hợp đồng.
+    - Tự tính được tiền tăng ca và so với phiếu lương.
+    - Biết mình có phải là lao động thuê lại không, và công việc của mình có được phép thuê lại không.
+  goals_en:
+    - Check that your contract has the required content and is the right type.
+    - Calculate your own overtime pay and compare it with your payslip.
+    - Tell whether you are a leased worker, and whether your job may legally be leased.
+  lessons:
+    - slug: hop-dong-lao-dong
+    - slug: tien-luong-lam-them-gio
+    - slug: lao-dong-thue-lai
+    - t: "Giờ làm việc, nghỉ hằng tuần, nghỉ lễ, nghỉ phép năm"
+      t_en: "Working hours, weekly rest, public holidays and annual leave"
+    - t: "Nghỉ việc, bị cho thôi việc: trợ cấp thôi việc, trợ cấp mất việc"
+      t_en: "Leaving or losing your job: severance and job-loss allowances"
+- title: "Phần 2. Bảo hiểm"
+  title_en: "Part 2. Insurance"
+  goals:
+    - Tự kiểm tra quá trình đóng BHXH trên ứng dụng VssID.
+    - Biết khi nào được hưởng trợ cấp thất nghiệp và hạn nộp hồ sơ.
+  goals_en:
+    - Check your own social insurance record on the VssID app.
+    - Know when you qualify for unemployment benefit and the filing deadline.
+  lessons:
+    - slug: bao-hiem-xa-hoi
+    - t: "Bảo hiểm xã hội tự nguyện cho người không có hợp đồng lao động"
+      t_en: "Voluntary social insurance for people without an employment contract"
+    - t: "Bảo hiểm y tế: dùng thẻ thế nào khi đi khám"
+      t_en: "Health insurance: using your card at the clinic"
+- title: "Phần 3. An toàn và sức khỏe khi làm việc"
+  title_en: "Part 3. Safety and health at work"
+  goals:
+    - Nhận ra mối nguy ở chỗ làm và biết công ty phải làm gì.
+    - Biết các bước khi bị tai nạn lao động và quyền lợi được hưởng.
+  goals_en:
+    - Spot hazards at your workplace and know what the employer must do.
+    - Know the steps after a work accident and what you are entitled to.
+  lessons:
+    - slug: an-toan-ve-sinh-lao-dong
+    - slug: tai-nan-lao-dong
+    - t: "Làm việc với hóa chất: đọc nhãn và phiếu an toàn hóa chất"
+      t_en: "Working with chemicals: reading labels and safety data sheets"
+    - t: "Lao động nữ: mang thai, nuôi con nhỏ, công việc cần tránh"
+      t_en: "Women workers: pregnancy, young children and work to avoid"
+- title: "Phần 4. Bảo vệ quyền lợi của mình"
+  title_en: "Part 4. Standing up for your rights"
+  goals:
+    - Tự lập bộ bằng chứng khi có tranh chấp.
+    - Biết gửi khiếu nại tới đâu và xin trợ giúp pháp lý miễn phí.
+  goals_en:
+    - Build your own evidence file when there is a dispute.
+    - Know where to file a complaint and how to get free legal aid.
+  lessons:
+    - slug: giu-bang-chung
+    - t: "Phân biệt đối xử và quấy rối tình dục ở nơi làm việc"
+      t_en: "Discrimination and sexual harassment at work"
+- title: "Phần 5. Đi làm việc ở nước ngoài"
+  title_en: "Part 5. Working abroad"
+  goals:
+    - Nhận biết dấu hiệu lừa đảo và lao động cưỡng bức trước khi đi.
+    - Biết gọi ai khi gặp khó khăn ở nước ngoài.
+  goals_en:
+    - Recognise signs of fraud and forced labour before you leave.
+    - Know who to call if you run into trouble abroad.
+  lessons:
+    - slug: di-lam-viec-o-nuoc-ngoai
+    - t: "Trước khi đi: hợp đồng, chi phí, giấy tờ cần giữ"
+      t_en: "Before you go: contracts, costs and documents to keep"
+    - t: "Về nước: thanh lý hợp đồng, nhận lại tiền ký quỹ, bảo hiểm"
+      t_en: "Coming home: closing your contract, getting deposits back, insurance"
+- title: "Phần 6. Kỹ năng sống"
+  title_en: "Part 6. Life skills"
+  goals:
+    - Lập được kế hoạch chi tiêu hằng tháng từ tiền lương.
+    - Nhận ra bẫy vay qua ứng dụng và tín dụng đen.
+  goals_en:
+    - Make a monthly spending plan from your wages.
+    - Recognise the traps of app loans and loan sharks.
+  lessons:
+    - t: "Quản lý tiền lương hằng tháng"
+      t_en: "Managing your monthly pay"
+    - t: "Vay qua ứng dụng, tín dụng đen: cách nhận biết và tránh"
+      t_en: "App loans and loan sharks: how to spot and avoid them"
