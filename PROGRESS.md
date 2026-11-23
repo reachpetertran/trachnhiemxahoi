@@ -1,14 +1,14 @@
 # TIẾN ĐỘ – trachnhiemxahoi.com
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
-Cập nhật gần nhất: 23/11/2026 (phiên 7).
+Cập nhật gần nhất: 24/11/2026 (phiên 8).
 
 ## 1. Trạng thái hiện tại – v0.3, ĐANG CHẠY THẬT
 - Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã chạy. Bản dự phòng: https://trachnhiemxahoi-web.pages.dev
 - Song ngữ: tiếng Việt ở `/`, tiếng Anh ở `/en/`. Mỗi trang có nút chuyển ngôn ngữ và thẻ hreflang.
 - Logo: đã thiết kế, cùng họ huy hiệu với daynentang và kynanglamviec (mũ bảo hộ đặt trên sách mở; phía sau là nhà máy, ruộng bậc thang, máy bay).
-- 19 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt.
-- **Khung chương trình** (phiên 4): VI `/khung-chuong-trinh/`, EN `/en/curriculum/`, có trên menu và trang chủ. 6 phần, 19 bài – ĐỦ cả 6 phần (Phần 6 xong phiên 7) + Phần 7 các nhóm giai đoạn sau (8 nhóm, còn "Sắp có"). Dữ liệu: `data/curriculum.yaml` (slug = bài đã đăng; t/t_en = bài dự kiến). Bài nháp nhạy cảm KHÔNG đưa vào khung.
+- 22 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt.
+- **Khung chương trình** (phiên 4): VI `/khung-chuong-trinh/`, EN `/en/curriculum/`, có trên menu và trang chủ. 7 phần, 22 bài – ĐỦ cả 7 phần (Phần 7 "Nông dân, ngư dân, lao động tự do, trẻ em" xong phiên 8) + Phần 8 các nhóm giai đoạn sau (tự sinh từ groups.yaml status soon, còn 5 nhóm "Sắp có"). Dữ liệu: `data/curriculum.yaml` (slug = bài đã đăng; t/t_en = bài dự kiến). Bài nháp nhạy cảm KHÔNG đưa vào khung.
 
 ## 2. Hạ tầng
 - Cloudflare: tài khoản Reach.petertran@gmail.com (account f9970afd818f540f45e8ef101099de6a), gói Free ($0).
@@ -57,6 +57,9 @@ _build/static/          CSS, logo, PNG (logo-512/1024, logo-icon-512, apple-touc
 | 18 | quan-ly-tien-luong | managing-your-pay | BLLĐ Đ94.2, 95.3, 96.2, 97, 101, 102, 127.2 (nguyên văn, vcci); BLDS Đ471 (nguyên văn, caselaw); NĐ 399/2026 lương tối thiểu 2027 (Sắp thay đổi – Đang đối chiếu, nguồn lsvn); ví dụ ngân sách giả định |
 | 19 | vay-qua-ung-dung-tin-dung-den | app-loans-and-loan-sharks | BLDS Đ468, 471 (nguyên văn); BLHS Đ201 (nguyên văn bản hợp nhất caselaw; Luật 86/2025 không sửa Đ201), Đ155, 170; Luật Đầu tư 143/2025 Đ6.1 cấm dịch vụ đòi nợ (Đang đối chiếu); Luật BVDLCN 91/2025 (Đang đối chiếu); NĐ 94/2025 + 382/2026 (P2P sandbox) |
 | 17 | ve-nuoc | coming-home | Luật 69/2020 Đ6.2g, 23.3, 25.3, 46.8 (180 ngày), 60, 61, 67; NĐ 112 Đ31, 32; Luật BHXH Đ2.1g, 33.2 (22%, truy đóng); QĐ 34/2025/QĐ-TTg (mức hỗ trợ – Đang đối chiếu); NĐ 283 Đ49, 53 |
+| 20 | nong-dan-ngu-dan | farmers-and-fishers | Luật ATVSLĐ Đ6.3c (nguyên văn, hethongphapluat); NĐ 143/2024 BH TNLĐ tự nguyện Đ2, 3, 5, 7, 11, 12, 18 (nguyên văn, vcci) – 444.000 đ/năm 2026, hỗ trợ 30/25/10%; Luật BVKDTV 41/2013 Đ3.22, 4.3 (đối chiếu VBHN 2026), Đ72; Luật Thủy sản 18/2017 Đ73, 74 (bản gốc – Đang đối chiếu VBHN); NĐ 188/2025 hỗ trợ BHYT hộ nông-lâm-ngư 30% (Đang đối chiếu); BLLĐ Đ147.1c, g; 112 (QĐ 2023/QĐ-TTg) |
+| 21 | lao-dong-tu-do | informal-and-day-workers | BLLĐ Đ3.6, 13.1, 14, 161–165 (nguyên văn, vcci); Luật BHXH Đ2.1a, l, 2.4; Luật ATVSLĐ Đ6.3, 6.4; NĐ 143/2024; Sắp thay đổi: dự án Luật BHXH sửa đổi (lao động nền tảng), Luật ATVSLĐ sửa đổi |
+| 22 | tre-em-di-lam | children-at-work | BLLĐ Đ3.1, 143–147 (nguyên văn); TT 09/2020/TT-BLĐTBXH PL II (12 việc nhẹ), III, IV (caselaw); Luật Trẻ em VBHN 108/VBHN-VPQH 2025 Đ1, 4.7, 6, 26, 37 |
 
 Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính thức, văn bản tiếng Việt có giá trị.
 
@@ -79,7 +82,7 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 - Nhóm nhạy cảm cao (người nghiện, người bán dâm, lao động trong trại giam): không có trong mã nguồn công khai.
 
 ## 7. Danh bạ
-- Đã đối chiếu: 113, 114, 115; 111 (trẻ em + mua bán người); TGPL nhà nước; Sở Nội vụ/UBND xã; Đài Loan 1955; Nhật OTIT 0120-250-168, 0570-013904, 0570-001706.
+- Đã đối chiếu: 113, 114, 115; 112 (tìm kiếm cứu nạn, QĐ 2023/QĐ-TTg 2025 – thêm phiên 8); 111 (trẻ em + mua bán người); TGPL nhà nước; Sở Nội vụ/UBND xã; Đài Loan 1955; Nhật OTIT 0120-250-168, 0570-013904, 0570-001706.
 - Đang đối chiếu: Hàn Quốc 1577-0071, 1350.
 - Chưa đăng: đường dây Công đoàn, tổng đài BHXH/VssID, TGPL từng tỉnh, Đại sứ quán/Ban QLLĐ ở nước ngoài, các NGO.
 
@@ -90,6 +93,7 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 - 23/11/2026 (phiên 5): Peter yêu cầu soạn và đăng nốt Phần 1, Phần 2 của khung chương trình → đã đăng bài 9–12.
 - 23/11/2026 (phiên 6): Peter yêu cầu soạn và đăng Phần 3, 4, 5 → đã đăng bài 13–17; sửa hộp phí môi giới bài 5 (TT 09/2026).
 - 23/11/2026 (phiên 7): Peter yêu cầu soạn và đăng Phần 6, 7 → chọn CHỈ Phần 6 phiên này (bài 18–19). **Phần 7 để phiên sau.** Peter quyết định: bài nhóm "Người bị lừa, bị mua bán, bị ép làm việc" được ĐĂNG LUÔN (không cần để nháp), chỉ dẫn Luật PCMBN 53/2024 + đường dây 111, không bình luận.
+- 24/11/2026 (phiên 8): Peter yêu cầu soạn và đăng phần Nông dân, ngư dân, Lao động tự do, Trẻ em → đăng bài 20–22, mở 3 nhóm (status active), thêm Phần 7 vào khung; các nhóm còn lại thành Phần 8.
 - 23/11/2026 (phiên 3): nối Pages với GitHub; Peter cấp quyền cho Claude mọi tác vụ của dự án (soạn và đăng). Vẫn giữ: chủ đề nhạy cảm chính trị phải để nháp chờ duyệt; khoản tốn tiền phải báo trước.
 
 ## 9. Việc tiếp theo (theo thứ tự)
@@ -104,7 +108,8 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 1c. (Phiên 5) Lưu ý: BLLĐ Đ139 (thai sản) đã được sửa bởi Luật Dân số 2025 từ 01/7/2026 (con thứ hai 7 tháng) – khi viết bài Lao động nữ (Phần 3) phải dùng bản sửa. Khi Quốc hội thông qua luật sửa BLLĐ (24/11, có thể thêm 27/7; dự kiến hiệu lực 01/3/2027): cập nhật bài 9.
 2. Peter duyệt bài nháp dai-dien-nguoi-lao-dong.
 3. Xác minh danh bạ còn thiếu.
-4. Bài tiếp theo: Phần 1–6 ĐÃ XONG (phiên 7). Tiếp: Phần 7 – mỗi nhóm 1 bài lõi song ngữ (nông dân/ngư dân, lao động tự do, trẻ em đi làm, mua bán người – đăng luôn theo QĐ phiên 7, phụ nữ bị bạo hành, khuyết tật, sức khỏe tâm thần, trẻ khó khăn); khi đăng đổi status nhóm trong groups.yaml từ soon → active. Ngoài khung: lao động chưa thành niên (BLLĐ Chương XI – cần TT 09/2020/TT-BLĐTBXH).
+4. (Phiên 8) Phần 7 xong (nông dân–ngư dân, lao động tự do, trẻ em). Còn lại các nhóm Phần 8: mua bán người (đăng luôn theo QĐ phiên 7), phụ nữ bị bạo hành, khuyết tật, sức khỏe tâm thần, trẻ khó khăn. Việc cần đối chiếu từ bài 20–22: Luật Thủy sản Đ73–74 với VBHN mới (sửa 2024, 2025); NĐ 188/2025 nguyên văn mức hỗ trợ 30%; Luật 21/2026/QH16 sửa Luật BVKDTV (hiệu lực 01/01/2027) – xem Đ72 có đổi không; chính sách hỗ trợ bảo hiểm thuyền viên thay NĐ 67/2014 (chưa đưa vào bài, chưa xác minh); dự thảo sửa NĐ 143/2024. Ngày 01/01/2027: cập nhật mức đóng BH TNLĐ tự nguyện (484.800 đ) ở bài 20, 21.
+4z. (Lịch sử) Phần 1–6 ĐÃ XONG (phiên 7). Tiếp: Phần 7 – mỗi nhóm 1 bài lõi song ngữ (nông dân/ngư dân, lao động tự do, trẻ em đi làm, mua bán người – đăng luôn theo QĐ phiên 7, phụ nữ bị bạo hành, khuyết tật, sức khỏe tâm thần, trẻ khó khăn); khi đăng đổi status nhóm trong groups.yaml từ soon → active. Ngoài khung: lao động chưa thành niên (BLLĐ Chương XI – cần TT 09/2020/TT-BLĐTBXH).
 4a. Nguồn kỹ thuật (phiên 5): shell của phiên đọc được vanban.vcci.com.vn và vcci.com.vn/van-ban-phap-luat/... bằng curl (lấy toàn văn, trích nguyên văn được); vbpl.vn, thuvienphapluat.vn, datafiles.chinhphu.vn bị chặn (403).
 5. Định kỳ: theo dõi dự thảo sửa NĐ 145/2020 (Bộ Nội vụ, 7/2026) – khi ban hành, cập nhật bảng Phụ lục II bài 8; rà lương tối thiểu vào tháng 11–12; theo dõi luật sửa BLLĐ và Luật ATVSLĐ (Quốc hội khóa XVI); Nhật Bản 育成就労 từ 01/4/2027.
 6. (Tùy chọn) Xóa Pages project cũ `trachnhiemxahoi`.
