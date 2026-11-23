@@ -27,6 +27,18 @@ situations:
 - q: Mất việc – tôi có được trợ cấp thất nghiệp không?
   to: bao-hiem-xa-hoi
   q_en: I lost my job – can I get unemployment benefit?
+- q: Làm liền nhiều tuần không có ngày nghỉ, bị trừ phép năm sai
+  q_en: Weeks without a day off, or annual leave deducted wrongly
+  to: gio-lam-viec-nghi-ngoi
+- q: Nghỉ việc, bị cắt giảm – tôi có được trợ cấp thôi việc, mất việc không?
+  q_en: I left or was laid off – do I get severance or a job-loss allowance?
+  to: tro-cap-thoi-viec-mat-viec
+- q: Không còn hợp đồng lao động – có tự đóng BHXH được không?
+  q_en: I no longer have a contract – can I pay social insurance myself?
+  to: bhxh-tu-nguyen
+- q: Đi làm xa quê, khám bệnh bằng BHYT ở đâu, được trả bao nhiêu?
+  q_en: I work far from home – where can I use health insurance, and how much is paid?
+  to: bao-hiem-y-te
 - q: Nơi làm việc nguy hiểm, bụi, ồn, hóa chất
   to: an-toan-ve-sinh-lao-dong
   q_en: 'My workplace is dangerous: dust, noise, chemicals'

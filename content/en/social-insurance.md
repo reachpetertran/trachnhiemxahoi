@@ -62,4 +62,4 @@ Some workers (for example, some older workers) are not covered by compulsory soc
 5. **Not resolved:** send a complaint with evidence to the social insurance office where your employer pays, or to the provincial Department of Home Affairs. See [Keep evidence and complain the right way](../keep-evidence/).
 6. **Lost your job:** apply for unemployment benefit **within 3 months** of leaving – miss the deadline and you lose that claim. Apply at the public employment service centre.
 
-<p class="note">Informal workers and farmers can join <b>voluntary social insurance</b>. A separate article for them is being written.</p>
+<p class="note">Informal workers and farmers can join <b>voluntary social insurance</b>. See <a href="../voluntary-social-insurance/">Voluntary social insurance</a>. For your health insurance card, see <a href="../health-insurance/">Health insurance</a>.</p>

@@ -59,4 +59,4 @@ Một số người lao động (ví dụ một số trường hợp người la
 5. **Không được giải quyết:** gửi phản ánh kèm bằng chứng tới cơ quan BHXH nơi công ty đóng, hoặc Sở Nội vụ tỉnh/thành phố. Xem [Giữ bằng chứng và khiếu nại đúng cách](../giu-bang-chung/).
 6. **Mất việc:** nộp hồ sơ hưởng trợ cấp thất nghiệp **trong vòng 3 tháng** kể từ ngày nghỉ việc – quá hạn là mất quyền hưởng lần đó. Nơi nộp: trung tâm dịch vụ việc làm.
 
-<p class="note">Lao động tự do, nông dân cũng có thể tham gia <b>BHXH tự nguyện</b>. Bài riêng cho nhóm này đang được biên soạn.</p>
+<p class="note">Lao động tự do, nông dân cũng có thể tham gia <b>BHXH tự nguyện</b>. Xem bài <a href="../bhxh-tu-nguyen/">BHXH tự nguyện</a>. Về thẻ BHYT, xem <a href="../bao-hiem-y-te/">Bảo hiểm y tế</a>.</p>

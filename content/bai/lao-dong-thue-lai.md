@@ -3,13 +3,13 @@ slug: lao-dong-thue-lai
 order: 8
 status: published
 title: "Lao động thuê lại: làm ở nhà máy nhưng ký hợp đồng với công ty khác"
-short: Thuê lại tối đa 12 tháng, chỉ cho một số công việc, lương không được thấp hơn công nhân chính thức làm cùng việc, công ty cho thuê phải có giấy phép.
+short: Thuê lại tối đa 12 tháng, chỉ cho một số công việc, lương không được thấp hơn công nhân chính thức làm cùng việc, công ty cho thuê phải ký quỹ và đăng ký hoạt động với Sở Nội vụ.
 groups: [cong-nhan]
 checked: 23/11/2026
 summary:
   - Bạn ký hợp đồng với công ty cho thuê lại, nhưng làm việc và chịu điều hành ở công ty khác – tối đa 12 tháng.
   - Lương của bạn không được thấp hơn người của công ty đó có cùng trình độ, làm cùng việc.
-  - Chỉ doanh nghiệp có giấy phép mới được cho thuê lại lao động, và chỉ cho những công việc nằm trong danh mục.
+  - Chỉ doanh nghiệp cho thuê lại lao động hợp pháp (ký quỹ 2 tỷ đồng; từ 01/7/2026 thông báo hoạt động với Sở Nội vụ thay cho giấy phép) mới được cho thuê lại, và chỉ cho những công việc nằm trong danh mục.
 sources:
   - t: Bộ luật Lao động số 45/2019/QH14, Điều 52–58 (đối chiếu văn bản gốc 23/11/2026)
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
@@ -19,6 +19,8 @@ sources:
     u: https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-muc-20-nganh-nghe-cho-thue-lai-lao-dong-2026-theo-nghi-dinh-1452020ndcp-chi-tiet-ra-sao-272530.html
   - t: Bộ Nội vụ – Dự thảo Nghị định sửa đổi, bổ sung Nghị định 145/2020/NĐ-CP (đăng lấy ý kiến tháng 7/2026, CHƯA ban hành)
     u: https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2026/Thang7/2.duthaonghidinh.pdf
+  - t: Nghị quyết 66.18/2026/NQ-CP ngày 18/5/2026 (hiệu lực 01/7/2026 – 28/02/2027) – thay giấy phép cho thuê lại lao động bằng ký quỹ và thông báo hoạt động; theo Tạp chí Tổ chức nhà nước và Lao động (Bộ Nội vụ), 09/11/2026 – chưa trích nguyên văn
+    u: https://tcnnld.vn/news/detail/73963/Bai-bo-rao-can-hanh-chinh-ve-cho-thue-lai-lao-dong-Dot-pha-tu-Nghi-quyet-so-66.182026NQ-CP.html
 upcoming: |
   **Dự thảo – chưa phải luật.** Tháng 7/2026, Bộ Nội vụ đăng dự thảo Nghị định sửa Nghị định 145/2020, trong đó **thay thế Phụ lục II**. Danh mục vẫn 20 công việc, nhưng giải thích rõ 3 dòng mà doanh nghiệp và cơ quan thanh tra đang hiểu khác nhau:
 
@@ -42,6 +44,7 @@ Nói đơn giản: **bạn ký hợp đồng với công ty A**, nhưng **đi l�
 - Công ty B **không được** thuê lại để: thay người lao động đang đình công hoặc đang giải quyết tranh chấp lao động; thay người vừa bị cho thôi việc vì thay đổi cơ cấu, công nghệ, lý do kinh tế, sáp nhập…; hoặc khi chưa thỏa thuận rõ ai bồi thường tai nạn lao động (Điều 53 khoản 3).
 - Công ty B **không được** chuyển bạn sang công ty khác, và **không được** dùng người do công ty **không có giấy phép** cung cấp (Điều 53 khoản 4).
 - Công ty A phải **ký quỹ 2 tỷ đồng** và có **Giấy phép hoạt động cho thuê lại lao động** (Điều 54; Nghị định 145/2020, Điều 21).
+- **Thay đổi từ 01/7/2026:** theo Nghị quyết 66.18/2026/NQ-CP của Chính phủ (ngày 18/5/2026, áp dụng từ 01/7/2026 đến hết 28/02/2027), **không còn cấp, gia hạn giấy phép** cho thuê lại lao động. Thay vào đó, doanh nghiệp vẫn phải **ký quỹ 2 tỷ đồng tại ngân hàng**, **thông báo hoạt động với Sở Nội vụ** nơi đặt trụ sở chính và báo cáo hằng quý. Bên thuê lại vẫn không được dùng người do đơn vị không phải doanh nghiệp cho thuê lại lao động cung cấp. Giới hạn 12 tháng, danh mục 20 công việc và lương ngang bằng vẫn theo Bộ luật Lao động và Nghị định 145/2020. <span class="tag chk">Đang đối chiếu</span>
 
 ## 3. Chỉ 20 công việc được thuê lại
 
@@ -92,12 +95,12 @@ Nói đơn giản: **bạn ký hợp đồng với công ty A**, nhưng **đi l�
 - Dùng lao động “thuê ngoài” cho công việc sản xuất **không nằm trong danh mục**.
 - Lao động thuê lại được trả lương, phụ cấp, thưởng **thấp hơn** công nhân chính thức làm cùng việc.
 - Thuê lại liên tục quá 12 tháng.
-- Công ty cung cấp người **không có giấy phép** cho thuê lại lao động.
+- Công ty cung cấp người **không phải doanh nghiệp cho thuê lại lao động hợp pháp** (không có giấy phép, không ký quỹ, không thông báo với Sở Nội vụ).
 - Không ai đóng BHXH cho người lao động thuê lại, hoặc không rõ ai chịu trách nhiệm khi có tai nạn.
 
 ## 6. Bạn làm gì
 
-1. **Hỏi rõ** bạn ký hợp đồng với công ty nào, và công ty đó có Giấy phép cho thuê lại lao động không. Xin bản hợp đồng của bạn.
+1. **Hỏi rõ** bạn ký hợp đồng với công ty nào, công ty đó có phải doanh nghiệp cho thuê lại lao động hợp pháp không (có giấy phép cấp trước 01/7/2026, hoặc đã thông báo hoạt động với Sở Nội vụ). Xin bản hợp đồng của bạn.
 2. **So lương** với công nhân chính thức làm cùng việc. Ghi lại phiếu lương của bạn – xem [Giữ bằng chứng](../giu-bang-chung/).
 3. **Kiểm tra BHXH** hằng tháng trên VssID – xem [Bảo hiểm xã hội](../bao-hiem-xa-hoi/).
 4. Bị đối xử khác, hoặc bên B vi phạm thỏa thuận: **khiếu nại với công ty A** (Điều 58 khoản 4), rồi tới Sở Nội vụ nếu không được giải quyết. Tranh chấp giữa người lao động thuê lại với bên thuê lại **không bắt buộc** qua hòa giải (Điều 188).

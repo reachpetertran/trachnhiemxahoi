@@ -4,13 +4,13 @@ pair: lao-dong-thue-lai
 order: 8
 status: published
 title: "Leased workers: working in a factory but employed by another company"
-short: Leasing is limited to 12 months and certain jobs, pay must equal direct employees doing the same work, and the leasing company must be licensed.
+short: Leasing is limited to 12 months and certain jobs, pay must equal direct employees doing the same work, and the leasing company must lodge a deposit and register with the Department of Home Affairs.
 groups: [cong-nhan]
 checked: 23/11/2026
 summary:
   - You sign with a labour leasing company but work under another company's direction – for at most 12 months.
   - Your pay may not be lower than that of the host company's employees with the same skills doing the same work.
-  - Only licensed companies may lease workers, and only for jobs on the official list.
+  - Only lawful labour-leasing companies (VND 2 billion deposit; since 01/07/2026 a notice to the Department of Home Affairs instead of a licence) may lease workers, and only for jobs on the official list.
 sources:
   - t: Labour Code No. 45/2019/QH14, Articles 52–58 (checked against the original text 23/11/2026)
     u: https://vanban.vcci.com.vn/bo-luat-lao-dong-2019
@@ -20,6 +20,8 @@ sources:
     u: https://thuvienphapluat.vn/phap-luat/ho-tro-phap-luat/danh-muc-20-nganh-nghe-cho-thue-lai-lao-dong-2026-theo-nghi-dinh-1452020ndcp-chi-tiet-ra-sao-272530.html
   - t: Ministry of Home Affairs – Draft Decree amending Decree 145/2020/NĐ-CP (published for comment July 2026, NOT yet issued; Vietnamese)
     u: https://datafiles.chinhphu.vn/cpp/files/duthaovbpl/2026/Thang7/2.duthaonghidinh.pdf
+  - t: Government Resolution 66.18/2026/NQ-CP of 18/05/2026 (applies 01/07/2026 – 28/02/2027) – replaces the leasing licence with a deposit and a notice of operation; per the State Organisation and Labour Journal (Ministry of Home Affairs), 09/11/2026 – not yet quoted from the original
+    u: https://tcnnld.vn/news/detail/73963/Bai-bo-rao-can-hanh-chinh-ve-cho-thue-lai-lao-dong-Dot-pha-tu-Nghi-quyet-so-66.182026NQ-CP.html
 upcoming: |
   **Draft – not law yet.** In July 2026 the Ministry of Home Affairs published a draft decree amending Decree 145/2020 that would **replace Appendix II**. The list would still have 20 jobs, but three lines that businesses and inspectors read differently would be explained:
 
@@ -45,6 +47,7 @@ In plain words: **you sign with company A** but **work at company B**. A pays yo
 - Company B **may not** use leased workers to: replace workers who are on strike or in a labour dispute; replace workers dismissed for restructuring, technology change, economic reasons or mergers; or without a specific agreement on who compensates work accidents (Article 53(3)).
 - Company B **may not** transfer you to another employer, and **may not** use workers supplied by an **unlicensed** company (Article 53(4)).
 - Company A must lodge a **VND 2 billion deposit** and hold a **labour leasing licence** (Article 54; Decree 145/2020, Article 21).
+- **Change from 01/07/2026:** under Government Resolution 66.18/2026/NQ-CP (18/05/2026, applying from 01/07/2026 to 28/02/2027), leasing licences are **no longer issued or renewed**. Instead, the company must still keep a **VND 2 billion bank deposit**, **notify the Department of Home Affairs** where its head office is, and report every quarter. The hiring company still may not use workers supplied by anyone other than a labour-leasing company. The 12-month limit, the list of 20 jobs and equal pay still follow the Labour Code and Decree 145/2020. <span class="tag chk">Being verified</span>
 
 ## 3. Only 20 jobs may be leased
 
@@ -95,12 +98,12 @@ In plain words: **you sign with company A** but **work at company B**. A pays yo
 - “Outsourced” workers used for production jobs **not on the list**.
 - Leased workers paid lower wages, allowances or bonuses **than direct employees** doing the same work.
 - Continuous leasing beyond 12 months.
-- Workers supplied by a company **without a leasing licence**.
+- Workers supplied by a company that is **not a lawful labour-leasing company** (no licence, no deposit, no notice to the Department of Home Affairs).
 - No one pays social insurance for leased workers, or no one is clearly responsible for work accidents.
 
 ## 6. What you can do
 
-1. **Ask clearly** which company you are signing with, and whether it holds a labour leasing licence. Get your copy of the contract.
+1. **Ask clearly** which company you are signing with, and whether it is a lawful labour-leasing company (licensed before 01/07/2026, or registered with the Department of Home Affairs since). Get your copy of the contract.
 2. **Compare your pay** with direct employees doing the same job. Keep your payslips – see [Keep evidence](../keep-evidence/).
 3. **Check your social insurance** monthly on VssID – see [Social insurance](../social-insurance/).
 4. If you are treated differently, or company B breaks the agreement: **complain to company A** (Article 58(4)), then to the provincial Department of Home Affairs if not resolved. Disputes between leased workers and the host company **do not have to** go through mediation first (Article 188).

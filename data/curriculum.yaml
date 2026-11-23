@@ -15,32 +15,34 @@ modules:
     - Kiểm tra được hợp đồng của mình có đủ nội dung, đúng loại hợp đồng.
     - Tự tính được tiền tăng ca và so với phiếu lương.
     - Biết mình có phải là lao động thuê lại không, và công việc của mình có được phép thuê lại không.
+    - Biết mình được nghỉ bao nhiêu ngày, và tự tính trợ cấp khi nghỉ việc.
   goals_en:
     - Check that your contract has the required content and is the right type.
     - Calculate your own overtime pay and compare it with your payslip.
     - Tell whether you are a leased worker, and whether your job may legally be leased.
+    - Know how much time off you are entitled to, and work out your allowance when you leave.
   lessons:
     - slug: hop-dong-lao-dong
     - slug: tien-luong-lam-them-gio
     - slug: lao-dong-thue-lai
-    - t: "Giờ làm việc, nghỉ hằng tuần, nghỉ lễ, nghỉ phép năm"
-      t_en: "Working hours, weekly rest, public holidays and annual leave"
-    - t: "Nghỉ việc, bị cho thôi việc: trợ cấp thôi việc, trợ cấp mất việc"
-      t_en: "Leaving or losing your job: severance and job-loss allowances"
+    - slug: gio-lam-viec-nghi-ngoi
+    - slug: tro-cap-thoi-viec-mat-viec
 - title: "Phần 2. Bảo hiểm"
   title_en: "Part 2. Insurance"
   goals:
     - Tự kiểm tra quá trình đóng BHXH trên ứng dụng VssID.
     - Biết khi nào được hưởng trợ cấp thất nghiệp và hạn nộp hồ sơ.
+    - Biết cách tự đóng BHXH tự nguyện khi không còn hợp đồng lao động.
+    - Dùng thẻ BHYT đúng cách để được quỹ trả nhiều nhất.
   goals_en:
     - Check your own social insurance record on the VssID app.
     - Know when you qualify for unemployment benefit and the filing deadline.
+    - Know how to pay voluntary social insurance yourself when you no longer have a contract.
+    - Use your health insurance card so the fund pays as much as possible.
   lessons:
     - slug: bao-hiem-xa-hoi
-    - t: "Bảo hiểm xã hội tự nguyện cho người không có hợp đồng lao động"
-      t_en: "Voluntary social insurance for people without an employment contract"
-    - t: "Bảo hiểm y tế: dùng thẻ thế nào khi đi khám"
-      t_en: "Health insurance: using your card at the clinic"
+    - slug: bhxh-tu-nguyen
+    - slug: bao-hiem-y-te
 - title: "Phần 3. An toàn và sức khỏe khi làm việc"
   title_en: "Part 3. Safety and health at work"
   goals:
