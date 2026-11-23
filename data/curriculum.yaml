@@ -96,7 +96,5 @@ modules:
     - Make a monthly spending plan from your wages.
     - Recognise the traps of app loans and loan sharks.
   lessons:
-    - t: "Quản lý tiền lương hằng tháng"
-      t_en: "Managing your monthly pay"
-    - t: "Vay qua ứng dụng, tín dụng đen: cách nhận biết và tránh"
-      t_en: "App loans and loan sharks: how to spot and avoid them"
+    - slug: quan-ly-tien-luong
+    - slug: vay-qua-ung-dung-tin-dung-den

@@ -75,6 +75,15 @@ situations:
 - q: Đã về nước – làm sao nhận lại tiền ký quỹ, thanh lý hợp đồng?
   q_en: Back home – how do I get my deposit back and settle my contract?
   to: ve-nuoc
+- q: Công ty phạt tiền, trừ lương, ép mua hàng của công ty
+  q_en: The company fines me, deducts from my pay, or makes me buy its goods
+  to: quan-ly-tien-luong
+- q: Lương không đủ tiêu đến cuối tháng
+  q_en: My pay does not last until the end of the month
+  to: quan-ly-tien-luong
+- q: Vay tiền qua app, bị đòi nợ, người thân bị gọi điện đe dọa
+  q_en: I borrowed through an app and am being threatened, or my relatives are getting threatening calls
+  to: vay-qua-ung-dung-tin-dung-den
 - q: Tôi muốn khiếu nại – cần chuẩn bị gì?
   to: giu-bang-chung
   q_en: I want to complain – what do I need to prepare?
