@@ -44,7 +44,7 @@ Từ 01/3/2025, **Cục Quản lý lao động ngoài nước** thuộc **Bộ N
 - Phải về nước trước hạn **không do lỗi của bạn**: doanh nghiệp phải **hoàn lại** tiền dịch vụ tương ứng thời gian chưa làm, kèm tiền lãi (khoản 3).
 - Một số thị trường, ngành nghề có mức trần **thấp hơn** (khoản 4 điểm c). Ví dụ: công ty môi giới Đài Loan được thu của người lao động tối đa **1.500 Đài tệ/tháng** tiền phí phục vụ (Thông tư 21/2021/TT-BLĐTBXH, phụ lục).
 
-<p class="change">Mức trần giá dịch vụ <b>môi giới</b> theo từng thị trường (trước đây ở Thông tư 02/2024/TT-BLĐTBXH, có các trường hợp 0 đồng như Nhật Bản) <b>đang được đối chiếu văn bản thay thế</b>. Trong lúc chờ, hãy hỏi Sở Nội vụ hoặc Cục Quản lý lao động ngoài nước về mức áp dụng cho đơn hàng của bạn.</p>
+<p class="change">Mức trần thù lao <b>môi giới</b> theo từng thị trường (trước đây ở Thông tư 02/2024/TT-BLĐTBXH, có các trường hợp 0 đồng như Nhật Bản) nay theo <b>Thông tư 09/2026/TT-BNV</b> (hiệu lực 30/6/2026), Phụ lục X <span class="tag chk">Đang đối chiếu</span>. Dù vậy, Luật 69/2020 (Điều 7 khoản 8) <b>cấm thu tiền môi giới của người lao động</b>. Hỏi Sở Nội vụ hoặc Cục Quản lý lao động ngoài nước về mức áp dụng cho đơn hàng của bạn. Xem thêm: <a href="../truoc-khi-di-nuoc-ngoai/">Trước khi đi</a> và <a href="../ve-nuoc/">Về nước</a>.</p>
 
 Ai đòi bạn nộp tiền “chạy” đơn hàng, “chạy” EPS, “bao đỗ”, thu tiền **trước khi** ký hợp đồng, hoặc thu cao hơn mức trần – **đó là dấu hiệu lừa đảo.**
 

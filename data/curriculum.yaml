@@ -48,42 +48,45 @@ modules:
   goals:
     - Nhận ra mối nguy ở chỗ làm và biết công ty phải làm gì.
     - Biết các bước khi bị tai nạn lao động và quyền lợi được hưởng.
+    - Đọc được nhãn và phiếu an toàn của hóa chất mình đang dùng.
+    - Biết quyền của lao động nữ khi mang thai, nuôi con nhỏ.
   goals_en:
     - Spot hazards at your workplace and know what the employer must do.
     - Know the steps after a work accident and what you are entitled to.
+    - Read the label and safety data sheet of the chemicals you use.
+    - Know women workers' rights during pregnancy and while raising a young child.
   lessons:
     - slug: an-toan-ve-sinh-lao-dong
     - slug: tai-nan-lao-dong
-    - t: "Làm việc với hóa chất: đọc nhãn và phiếu an toàn hóa chất"
-      t_en: "Working with chemicals: reading labels and safety data sheets"
-    - t: "Lao động nữ: mang thai, nuôi con nhỏ, công việc cần tránh"
-      t_en: "Women workers: pregnancy, young children and work to avoid"
+    - slug: hoa-chat
+    - slug: lao-dong-nu
 - title: "Phần 4. Bảo vệ quyền lợi của mình"
   title_en: "Part 4. Standing up for your rights"
   goals:
     - Tự lập bộ bằng chứng khi có tranh chấp.
     - Biết gửi khiếu nại tới đâu và xin trợ giúp pháp lý miễn phí.
+    - Nhận ra phân biệt đối xử, quấy rối tình dục và biết cách báo.
   goals_en:
     - Build your own evidence file when there is a dispute.
     - Know where to file a complaint and how to get free legal aid.
+    - Recognise discrimination and sexual harassment, and know how to report them.
   lessons:
     - slug: giu-bang-chung
-    - t: "Phân biệt đối xử và quấy rối tình dục ở nơi làm việc"
-      t_en: "Discrimination and sexual harassment at work"
+    - slug: phan-biet-doi-xu-quay-roi
 - title: "Phần 5. Đi làm việc ở nước ngoài"
   title_en: "Part 5. Working abroad"
   goals:
     - Nhận biết dấu hiệu lừa đảo và lao động cưỡng bức trước khi đi.
     - Biết gọi ai khi gặp khó khăn ở nước ngoài.
+    - Chuẩn bị đủ giấy tờ trước khi đi; thanh lý hợp đồng, nhận lại ký quỹ khi về.
   goals_en:
     - Recognise signs of fraud and forced labour before you leave.
     - Know who to call if you run into trouble abroad.
+    - Prepare your documents before leaving; settle your contract and get your deposit back on return.
   lessons:
     - slug: di-lam-viec-o-nuoc-ngoai
-    - t: "Trước khi đi: hợp đồng, chi phí, giấy tờ cần giữ"
-      t_en: "Before you go: contracts, costs and documents to keep"
-    - t: "Về nước: thanh lý hợp đồng, nhận lại tiền ký quỹ, bảo hiểm"
-      t_en: "Coming home: closing your contract, getting deposits back, insurance"
+    - slug: truoc-khi-di-nuoc-ngoai
+    - slug: ve-nuoc
 - title: "Phần 6. Kỹ năng sống"
   title_en: "Part 6. Life skills"
   goals:

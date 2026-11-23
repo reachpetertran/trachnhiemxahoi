@@ -47,7 +47,7 @@ A **service fee** is what a licensed enterprise may collect. Under Law 69/2020/Q
 - If you must return early **through no fault of your own**, the enterprise must **refund** the fee for the unworked period, with interest (clause 3).
 - Some markets and jobs have **lower caps** (clause 4(c)). Example: a Taiwanese placement agency may charge the worker at most **TWD 1,500 per month** as a service charge (Circular 21/2021/TT-BLĐTBXH, appendix).
 
-<p class="change">Caps on <b>brokerage</b> fees by market (previously in Circular 02/2024/TT-BLĐTBXH, including zero-fee cases such as Japan) are <b>being verified against the replacing regulation</b>. Meanwhile, ask the Department of Home Affairs or the Department of Overseas Labour which cap applies to your job order.</p>
+<p class="change">Caps on <b>brokerage</b> fees by market (previously in Circular 02/2024/TT-BLĐTBXH, including zero-fee cases such as Japan) are now set by <b>Circular 09/2026/TT-BNV</b> (effective 30/06/2026), Appendix X <span class="tag chk">Being verified</span>. Even so, Law 69/2020 (Article 7(8)) <b>bans collecting brokerage fees from workers</b>. Ask the Department of Home Affairs or the Department of Overseas Labour which cap applies to your job order. See also: <a href="../before-going-abroad/">Before you go</a> and <a href="../coming-home/">Coming home</a>.</p>
 
 Anyone asking you to pay to “buy” a job order or an EPS place, promising a “guaranteed pass”, collecting money **before** you sign a contract, or charging above the cap – **that is a scam sign.**
 

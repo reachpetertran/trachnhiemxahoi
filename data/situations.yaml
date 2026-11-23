@@ -51,12 +51,30 @@ situations:
 - q: Tôi làm ở nhà máy nhưng ký hợp đồng với công ty dịch vụ (thuê ngoài, thuê lại)
   q_en: I work in a factory but my contract is with an agency (outsourced, leased)
   to: lao-dong-thue-lai
+- q: Tôi làm việc với hóa chất – đọc nhãn, phiếu an toàn thế nào?
+  q_en: I work with chemicals – how do I read the label and safety data sheet?
+  to: hoa-chat
+- q: Tôi có thai / đang nuôi con nhỏ – công ty vẫn bắt làm đêm, tăng ca
+  q_en: I am pregnant or have a baby – the company still makes me work nights or overtime
+  to: lao-dong-nu
+- q: Bị đụng chạm, trêu ghẹo, nhắn tin gợi dục ở chỗ làm
+  q_en: I am touched, teased or sent sexual messages at work
+  to: phan-biet-doi-xu-quay-roi
+- q: Bị đối xử khác vì giới tính, tuổi, có thai, dân tộc
+  q_en: I am treated differently because of my sex, age, pregnancy or ethnicity
+  to: phan-biet-doi-xu-quay-roi
 - q: Sắp đi làm ở nước ngoài – sợ bị lừa, bị thu phí cao
   to: di-lam-viec-o-nuoc-ngoai
   q_en: Going to work abroad – afraid of scams and high fees
 - q: Đang ở nước ngoài, bị giữ hộ chiếu, bị ép làm việc
   to: di-lam-viec-o-nuoc-ngoai
   q_en: 'Abroad: my passport is held and I am forced to work'
+- q: Sắp đi nước ngoài – cần ký gì, nộp gì, giữ giấy tờ gì?
+  q_en: Going abroad soon – what do I sign, pay and keep?
+  to: truoc-khi-di-nuoc-ngoai
+- q: Đã về nước – làm sao nhận lại tiền ký quỹ, thanh lý hợp đồng?
+  q_en: Back home – how do I get my deposit back and settle my contract?
+  to: ve-nuoc
 - q: Tôi muốn khiếu nại – cần chuẩn bị gì?
   to: giu-bang-chung
   q_en: I want to complain – what do I need to prepare?
