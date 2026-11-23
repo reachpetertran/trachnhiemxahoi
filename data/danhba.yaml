@@ -29,6 +29,15 @@ sections:
     name_en: Medical emergency
     what_en: Work accidents, poisoning, fainting, serious injury.
     note_en: Free call.
+  - name: Tìm kiếm cứu nạn, sự cố, thiên tai
+    phone: '112'
+    what: Gặp nạn trên biển, trên sông; lũ, sạt lở, bão; cần tìm kiếm cứu nạn.
+    note: Miễn cước. Đưa vào hoạt động theo Quyết định 2023/QĐ-TTg năm 2025.
+    src: https://luatvietnam.vn/thong-tin/quyet-dinh-2023-qd-ttg-2025-su-dung-so-dien-thoai-112-tiep-nhan-thong-tin-su-co-thien-tai-411346-d1.html
+    status: ok
+    name_en: Search and rescue, incidents, natural disasters
+    what_en: Emergencies at sea or on rivers; floods, landslides, storms; search and rescue.
+    note_en: Free call. In operation under Prime Minister's Decision 2023/QĐ-TTg (2025).
   - name: Tổng đài quốc gia bảo vệ trẻ em và phòng, chống mua bán người
     phone: '111'
     what: Trẻ em bị xâm hại, bị bắt đi làm; người bị lừa bán, bị ép làm việc (cả trong nước và ở nước ngoài).

@@ -90,3 +90,21 @@ situations:
 - q: Tôi cần luật sư miễn phí
   to: danh-ba
   q_en: I need a free lawyer
+- q: Làm ruộng, đi biển, chạy xe ôm – không có hợp đồng thì có bảo hiểm gì?
+  q_en: I farm, fish or drive a motorbike taxi – with no contract, what insurance can I get?
+  to: nong-dan-ngu-dan
+- q: Phun thuốc trừ sâu thế nào cho an toàn? Bao lâu mới được thu hoạch?
+  q_en: How do I spray pesticides safely? How long before I can harvest?
+  to: nong-dan-ngu-dan
+- q: Làm thuê theo ngày, theo công trình – không có giấy tờ gì cả
+  q_en: I work by the day or by the site – with no paperwork at all
+  to: lao-dong-tu-do
+- q: Tôi đi giúp việc nhà – chủ giữ CCCD, bắt làm thêm việc khác
+  q_en: I am a domestic worker – the employer keeps my ID card and makes me do other work
+  to: lao-dong-tu-do
+- q: Con tôi chưa đủ 18 tuổi – được đi làm việc gì, bao nhiêu giờ?
+  q_en: My child is under 18 – what work, and how many hours, are allowed?
+  to: tre-em-di-lam
+- q: Thấy trẻ em bị bắt làm việc nặng, bị đánh, bị giữ
+  q_en: I see a child being made to do heavy work, beaten or held
+  to: tre-em-di-lam

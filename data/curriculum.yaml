@@ -98,3 +98,19 @@ modules:
   lessons:
     - slug: quan-ly-tien-luong
     - slug: vay-qua-ung-dung-tin-dung-den
+- title: "Phần 7. Nông dân, ngư dân, lao động tự do, trẻ em"
+  title_en: "Part 7. Farmers, fishers, informal workers, children"
+  goals:
+    - Biết ba loại bảo hiểm tự tham gia được khi không có hợp đồng lao động, gồm bảo hiểm tai nạn lao động tự nguyện.
+    - Dùng thuốc bảo vệ thực vật theo nguyên tắc “4 đúng” và thời gian cách ly.
+    - Nhận ra khi nào làm thuê “miệng” vẫn là hợp đồng lao động; biết quyền của người giúp việc gia đình.
+    - Biết tuổi nào được làm việc gì, việc và nơi cấm người dưới 18 tuổi; biết gọi 111.
+  goals_en:
+    - Know the three kinds of insurance you can join without an employment contract, including voluntary work-accident insurance.
+    - Use pesticides following the “four rights” and the pre-harvest interval.
+    - Recognise when a verbal job is still an employment contract; know the rights of domestic workers.
+    - Know what work each age may do, which work and workplaces are banned for under-18s, and when to call 111.
+  lessons:
+    - slug: nong-dan-ngu-dan
+    - slug: lao-dong-tu-do
+    - slug: tre-em-di-lam

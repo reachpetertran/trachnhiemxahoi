@@ -15,19 +15,19 @@ groups:
 - code: nong-dan
   name: Nông dân, ngư dân
   short: Bảo hiểm tự nguyện, an toàn hóa chất nông nghiệp
-  status: soon
+  status: active
   name_en: Farmers and fishers
   short_en: Voluntary insurance, safe use of farm chemicals
 - code: lao-dong-tu-do
   name: Lao động tự do, làm thuê theo ngày
   short: Shipper, phụ hồ, giúp việc, bán hàng rong…
-  status: soon
+  status: active
   name_en: Informal and day workers
   short_en: Delivery riders, construction helpers, domestic workers, street vendors…
 - code: tre-em
   name: Trẻ em và người chưa thành niên đi làm
   short: Tuổi được làm việc, việc bị cấm, ai bảo vệ em
-  status: soon
+  status: active
   name_en: Children and young people at work
   short_en: Minimum age, banned work, who protects you
 - code: mua-ban-nguoi

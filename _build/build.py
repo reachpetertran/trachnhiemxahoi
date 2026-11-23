@@ -211,8 +211,8 @@ def home(L):
 def groups(L):
     key = L["code"]
     other = LANGS["en" if key == "vi" else "vi"]
-    lead = ("Chọn nhóm gần với bạn nhất. Hai nhóm đầu đã có bài; các nhóm khác đang được biên soạn." if key == "vi"
-            else "Choose the group closest to you. The first two groups have articles; the others are being written.")
+    lead = ("Chọn nhóm gần với bạn nhất. Nhóm có số bài là nhóm đã có bài; các nhóm khác đang được biên soạn." if key == "vi"
+            else "Choose the group closest to you. Groups showing a number of articles have articles; the others are being written.")
     page(L, L["p"]["groups"], L["nav"][0], f"<h1>{L['nav'][0]}</h1><p class=lead>{lead}</p><ul class='cards grid'>{''.join(group_card(L, g) for g in visible())}</ul>", other["p"]["groups"])
     for g in GROUPS:
         if g["status"] != "active":
@@ -307,10 +307,10 @@ def curriculum(L):
         goals = "".join(f"<li>{e(g)}</li>" for g in (m["goals_en"] if not vi else m["goals"]))
         parts.append(f'<h2>{e(f(m, "title", L))}</h2><div class="sum"><b>{"Học xong, bạn làm được" if vi else "When you finish, you can"}</b><ul>{goals}</ul></div><ul class="cards">{"".join(items)}</ul>')
     later = [g for g in visible() if g["status"] == "soon"]
-    parts.append(f'<h2>{"Phần 7. Các nhóm người lao động khác (giai đoạn sau)" if vi else "Part 7. Other groups of workers (later stage)"}</h2>'
+    parts.append(f'<h2>{"Phần 8. Các nhóm người lao động khác (giai đoạn sau)" if vi else "Part 8. Other groups of workers (later stage)"}</h2>'
                  f'<p>{"Mỗi nhóm sẽ có bộ bài riêng, viết theo cùng mẫu." if vi else "Each group will get its own set of lessons, in the same format."}</p>'
                  f'<ul class="cards grid">{"".join(group_card(L, g) for g in later)}</ul>')
-    prog = (f"Đã đăng {done}/{total} bài trong Phần 1–6." if vi else f"{done} of {total} lessons in Parts 1–6 are published.")
+    prog = (f"Đã đăng {done}/{total} bài trong Phần 1–7." if vi else f"{done} of {total} lessons in Parts 1–7 are published.")
     how = ("<h2>Cách học mỗi bài</h2><ol><li>Đọc <b>Tóm tắt</b> trước.</li><li>Đọc <b>Luật nói gì</b>, đối chiếu với giấy tờ của bạn (hợp đồng, phiếu lương, sổ BHXH).</li>"
            "<li>Làm theo <b>Bạn làm gì</b>, từng bước.</li><li>Lưu số ở <b>Gọi ai</b> vào điện thoại.</li><li>Xem <b>Đúng đến ngày</b>: luật có thể đã đổi.</li></ol>") if vi else (
            "<h2>How to study each lesson</h2><ol><li>Read <b>In short</b> first.</li><li>Read <b>What the law says</b> and compare it with your own papers (contract, payslip, social insurance record).</li>"
@@ -326,8 +326,8 @@ ABOUT = {
     "vi": """<h1>Giới thiệu</h1><img class="hero-badge" src="{{R}}assets/logo.svg" alt="Logo Trách Nhiệm Xã Hội" width="190" height="203">
 <p class=lead><b>Trách Nhiệm Xã Hội</b> là trang tự học miễn phí, giúp người lao động biết luật để tự bảo vệ mình, biết nơi nhờ giúp, và có thêm kỹ năng tổ chức cuộc sống.</p>
 <h2>Viết cho ai</h2>
-<p>Giai đoạn đầu: công nhân, người làm nghề nặng nhọc, độc hại, nguy hiểm, và người Việt đi làm việc ở nước ngoài.
-Sau đó: nông dân, lao động tự do, và những người dễ bị tổn thương khác – trẻ em phải đi làm, người bị lừa bán, phụ nữ bị bạo hành, người khuyết tật, người có vấn đề sức khỏe tâm thần, trẻ không nơi nương tựa.</p>
+<p>Giai đoạn đầu: công nhân, người làm nghề nặng nhọc, độc hại, nguy hiểm, và người Việt đi làm việc ở nước ngoài. Đã có bài cho nông dân, ngư dân, lao động tự do và trẻ em đi làm.
+Sau đó: những người dễ bị tổn thương khác – người bị lừa bán, phụ nữ bị bạo hành, người khuyết tật, người có vấn đề sức khỏe tâm thần, trẻ không nơi nương tựa.</p>
 <h2>Nguyên tắc biên soạn</h2>
 <ul><li>Chỉ dùng nguồn gốc: văn bản pháp luật chính thức, trang của cơ quan nhà nước, ILO, IOM, tiêu chuẩn gốc, nghiên cứu có bình duyệt.</li>
 <li>Mỗi điều luật ghi số hiệu văn bản, số điều, và ngày tra cứu.</li>
@@ -345,8 +345,8 @@ Sau đó: nông dân, lao động tự do, và những người dễ bị tổn 
     "en": """<h1>About</h1><img class="hero-badge" src="{{R}}assets/logo.svg" alt="Trách Nhiệm Xã Hội logo" width="190" height="203">
 <p class=lead><b>Trách Nhiệm Xã Hội</b> (“Social Responsibility”) is a free self-study site that helps workers know the law so they can protect themselves, know where to get help, and build practical life skills.</p>
 <h2>Who it is for</h2>
-<p>First: factory workers, people in heavy, hazardous or dangerous jobs, and Vietnamese people working abroad under contract.
-Later: farmers, informal workers and other vulnerable groups – working children, people who were deceived or trafficked, women facing violence, people with disabilities, people with mental health conditions, and children without care.</p>
+<p>First: factory workers, people in heavy, hazardous or dangerous jobs, and Vietnamese people working abroad under contract. Articles for farmers, fishers, informal workers and working children are now available.
+Later: other vulnerable groups – people who were deceived or trafficked, women facing violence, people with disabilities, people with mental health conditions, and children without care.</p>
 <p>The main audience is Vietnamese. The English version supports social auditors, NGOs, brands, employers and anyone who works with Vietnamese workers.</p>
 <h2>How we write</h2>
 <ul><li>Primary sources only: official legal texts, government pages, ILO, IOM, original standards and peer-reviewed research.</li>
