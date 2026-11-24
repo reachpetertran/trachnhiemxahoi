@@ -1,14 +1,14 @@
 # TIẾN ĐỘ – trachnhiemxahoi.com
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
-Cập nhật gần nhất: 24/11/2026 (phiên 8).
+Cập nhật gần nhất: 24/11/2026 (phiên 9).
 
 ## 1. Trạng thái hiện tại – v0.3, ĐANG CHẠY THẬT
 - Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã chạy. Bản dự phòng: https://trachnhiemxahoi-web.pages.dev
 - Song ngữ: tiếng Việt ở `/`, tiếng Anh ở `/en/`. Mỗi trang có nút chuyển ngôn ngữ và thẻ hreflang.
 - Logo: đã thiết kế, cùng họ huy hiệu với daynentang và kynanglamviec (mũ bảo hộ đặt trên sách mở; phía sau là nhà máy, ruộng bậc thang, máy bay).
-- 22 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt.
-- **Khung chương trình** (phiên 4): VI `/khung-chuong-trinh/`, EN `/en/curriculum/`, có trên menu và trang chủ. 7 phần, 22 bài – ĐỦ cả 7 phần (Phần 7 "Nông dân, ngư dân, lao động tự do, trẻ em" xong phiên 8) + Phần 8 các nhóm giai đoạn sau (tự sinh từ groups.yaml status soon, còn 5 nhóm "Sắp có"). Dữ liệu: `data/curriculum.yaml` (slug = bài đã đăng; t/t_en = bài dự kiến). Bài nháp nhạy cảm KHÔNG đưa vào khung.
+- 27 bài đã đăng, có cả bản tiếng Việt và tiếng Anh. 1 bài nháp nhạy cảm chờ Peter duyệt. Cả 10 nhóm ở trục "Tôi là ai" đều active (không còn nhóm "Sắp có").
+- **Khung chương trình** (phiên 4): VI `/khung-chuong-trinh/`, EN `/en/curriculum/`, có trên menu và trang chủ. **8 phần, 27 bài – ĐỦ cả 8 phần** (Phần 8 "Người cần được bảo vệ đặc biệt" xong phiên 9). build.py chỉ hiện mục "các nhóm giai đoạn sau" khi groups.yaml còn nhóm status soon; dòng tiến độ tự đếm số phần. Dữ liệu: `data/curriculum.yaml` (slug = bài đã đăng; t/t_en = bài dự kiến). Bài nháp nhạy cảm KHÔNG đưa vào khung.
 
 ## 2. Hạ tầng
 - Cloudflare: tài khoản Reach.petertran@gmail.com (account f9970afd818f540f45e8ef101099de6a), gói Free ($0).
@@ -60,6 +60,11 @@ _build/static/          CSS, logo, PNG (logo-512/1024, logo-icon-512, apple-touc
 | 20 | nong-dan-ngu-dan | farmers-and-fishers | Luật ATVSLĐ Đ6.3c (nguyên văn, hethongphapluat); NĐ 143/2024 BH TNLĐ tự nguyện Đ2, 3, 5, 7, 11, 12, 18 (nguyên văn, vcci) – 444.000 đ/năm 2026, hỗ trợ 30/25/10%; Luật BVKDTV 41/2013 Đ3.22, 4.3 (đối chiếu VBHN 2026), Đ72; Luật Thủy sản 18/2017 Đ73, 74 (bản gốc – Đang đối chiếu VBHN); NĐ 188/2025 hỗ trợ BHYT hộ nông-lâm-ngư 30% (Đang đối chiếu); BLLĐ Đ147.1c, g; 112 (QĐ 2023/QĐ-TTg) |
 | 21 | lao-dong-tu-do | informal-and-day-workers | BLLĐ Đ3.6, 13.1, 14, 161–165 (nguyên văn, vcci); Luật BHXH Đ2.1a, l, 2.4; Luật ATVSLĐ Đ6.3, 6.4; NĐ 143/2024; Sắp thay đổi: dự án Luật BHXH sửa đổi (lao động nền tảng), Luật ATVSLĐ sửa đổi |
 | 22 | tre-em-di-lam | children-at-work | BLLĐ Đ3.1, 143–147 (nguyên văn); TT 09/2020/TT-BLĐTBXH PL II (12 việc nhẹ), III, IV (caselaw); Luật Trẻ em VBHN 108/VBHN-VPQH 2025 Đ1, 4.7, 6, 26, 37 |
+| 23 | mua-ban-nguoi | trafficking-and-forced-labour | Luật PCMBN 53/2024 Đ2, 3, 4.5, 6, 22, 27, 29, 37–45, 47 (nguyên văn, hethongphapluat); BLHS Đ150, 151, 297 (tên điều); NĐ 335/2026 Đ21.2. Hộp Sắp thay đổi: luật còn ghi "cấp huyện" – Đang đối chiếu văn bản phân cấp |
+| 24 | bao-luc-gia-dinh | domestic-violence | Luật PCBLGĐ 13/2022 Đ3, 9, 19, 20, 22–30, 36 (nguyên văn, hethongphapluat); **Tổng đài 117** (bvhttdl.gov.vn, kích hoạt 08/9/2026); NĐ 76/2023 Đ7 (Đang đối chiếu toàn văn); NĐ 335/2026 Đ16.2 (100.000 đ/ngày), Đ21.2; BLHS Đ185; Luật TGPL Đ7 diện BLGĐ có khó khăn tài chính (Đang đối chiếu điểm) |
+| 25 | nguoi-khuyet-tat | disability-rights | Luật NKT 51/2010 Đ2, 3, 14, 15–18, 32–34 (nguyên văn bản gốc); BLLĐ Đ159, 160 (nguyên văn); **NĐ 335/2026/NĐ-CP** (21/8/2026, hiệu lực 05/10/2026, thay NĐ 20/2021 + 76/2024; mức chuẩn 540.000 đ từ 01/7/2026; đối chiếu Công báo docx) Đ4, 6, 7, 8, 17; BHYT do NSNN đóng – Luật BHYT Đ12 (Đang đối chiếu điểm) |
+| 26 | suc-khoe-tam-than | mental-health | WHO fact sheet trầm cảm; Dazzi et al. 2014 (Psychological Medicine); Luật KBCB 15/2023 Đ82 (bắt buộc chữa bệnh, nguyên văn); Luật NKT Đ3.1d, 14; BLLĐ Đ3.8, 36.1b; NĐ 335/2026. Đường dây tư vấn SKTT: Đang kiểm tra, CHƯA đăng số; BHYT danh mục thuốc tâm thần: Đang đối chiếu |
+| 27 | tre-kho-khan | children-in-hardship | Luật Trẻ em VBHN 108/2025 Đ10, 49, 50, 61, 62 (nguyên văn); NĐ 335/2026 Đ5, 6, 7, 8, 10, 17 (trẻ dưới 4 tuổi 1.350.000, từ 4 tuổi 810.000; đơn thân nghèo 540.000/con); NQ 217/2025/QH15 Đ2 (miễn học phí công lập, nguyên văn) |
 
 Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính thức, văn bản tiếng Việt có giá trị.
 
@@ -82,7 +87,7 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 - Nhóm nhạy cảm cao (người nghiện, người bán dâm, lao động trong trại giam): không có trong mã nguồn công khai.
 
 ## 7. Danh bạ
-- Đã đối chiếu: 113, 114, 115; 112 (tìm kiếm cứu nạn, QĐ 2023/QĐ-TTg 2025 – thêm phiên 8); 111 (trẻ em + mua bán người); TGPL nhà nước; Sở Nội vụ/UBND xã; Đài Loan 1955; Nhật OTIT 0120-250-168, 0570-013904, 0570-001706.
+- Đã đối chiếu: 113, 114, 115; **117 (bạo lực gia đình, thêm phiên 9)**; 112 (tìm kiếm cứu nạn, QĐ 2023/QĐ-TTg 2025 – thêm phiên 8); 111 (trẻ em + mua bán người); TGPL nhà nước; Sở Nội vụ/UBND xã; Đài Loan 1955; Nhật OTIT 0120-250-168, 0570-013904, 0570-001706.
 - Đang đối chiếu: Hàn Quốc 1577-0071, 1350.
 - Chưa đăng: đường dây Công đoàn, tổng đài BHXH/VssID, TGPL từng tỉnh, Đại sứ quán/Ban QLLĐ ở nước ngoài, các NGO.
 
@@ -93,10 +98,12 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 - 23/11/2026 (phiên 5): Peter yêu cầu soạn và đăng nốt Phần 1, Phần 2 của khung chương trình → đã đăng bài 9–12.
 - 23/11/2026 (phiên 6): Peter yêu cầu soạn và đăng Phần 3, 4, 5 → đã đăng bài 13–17; sửa hộp phí môi giới bài 5 (TT 09/2026).
 - 23/11/2026 (phiên 7): Peter yêu cầu soạn và đăng Phần 6, 7 → chọn CHỈ Phần 6 phiên này (bài 18–19). **Phần 7 để phiên sau.** Peter quyết định: bài nhóm "Người bị lừa, bị mua bán, bị ép làm việc" được ĐĂNG LUÔN (không cần để nháp), chỉ dẫn Luật PCMBN 53/2024 + đường dây 111, không bình luận.
+- 24/11/2026 (phiên 9): Peter yêu cầu soạn và đăng Phần 8 → đăng bài 23–27 (mua bán người – đăng luôn theo QĐ phiên 7; bạo lực gia đình; người khuyết tật; sức khỏe tâm thần; trẻ khó khăn), mở 5 nhóm cuối, thêm Phần 8 vào khung, thêm 117 vào danh bạ, thêm 6 tình huống.
 - 24/11/2026 (phiên 8): Peter yêu cầu soạn và đăng phần Nông dân, ngư dân, Lao động tự do, Trẻ em → đăng bài 20–22, mở 3 nhóm (status active), thêm Phần 7 vào khung; các nhóm còn lại thành Phần 8.
 - 23/11/2026 (phiên 3): nối Pages với GitHub; Peter cấp quyền cho Claude mọi tác vụ của dự án (soạn và đăng). Vẫn giữ: chủ đề nhạy cảm chính trị phải để nháp chờ duyệt; khoản tốn tiền phải báo trước.
 
 ## 9. Việc tiếp theo (theo thứ tự)
+0000. (Phiên 9) Khung 8 phần đã ĐỦ. Việc mở: (a) **NĐ 335/2026/NĐ-CP** thay NĐ 20/2021 + 76/2024 – đã rà: không bài cũ nào dẫn NĐ 20/2021 hay mức 500.000; (b) theo dõi **Luật sửa đổi Luật Trẻ em, Luật NKT, Luật KBCB, Luật Dược…** (Quốc hội kỳ họp 10–11/2026) → cập nhật bài 22, 25, 26, 27; (c) xác minh đường dây tư vấn sức khỏe tâm thần chính thức; (d) đối chiếu toàn văn NĐ 76/2023 (BLGĐ), NĐ 162/2025, văn bản phân cấp thay "cấp huyện" trong Luật PCMBN; (e) Luật TGPL Đ7 điểm, khoản cho nạn nhân BLGĐ sau Luật 53/2024 Đ61 và Luật 05/2026. Ý tưởng phiên sau (Peter quyết): mỗi nhóm thêm bài thứ hai; bài lao động chưa thành niên chuyên sâu; nhóm nhạy cảm cao vẫn ẩn.
 000. (Phiên 7) **NĐ 399/2026/NĐ-CP** lương tối thiểu, hiệu lực 01/01/2027, THAY NĐ 293/2025: vùng I 5.700.000, II 5.080.000, III 4.450.000, IV 4.040.000; giờ 27.400/24.400/21.400/19.400 (nguồn lsvn.vn, vov.vn – chưa đối chiếu toàn văn). CẦN cập nhật bài 2 (tien-luong-lam-them-gio) và các bài dẫn NĐ 293 trước 01/01/2027. **Luật Đầu tư 143/2025/QH15** (hiệu lực 01/3/2026) đã thay Luật Đầu tư 2020.
 00. (Phiên 6) Đã xác minh: **NĐ 283/2026/NĐ-CP** (15/7/2026, hiệu lực 10/9/2026) THAY NĐ 12/2022 (Đ66.4) – bản PDF có chữ ký số tại storage-vnportal.vnpt.vn (qnm-ubnd). Mức phạt trong NĐ là mức cá nhân, tổ chức x2 (Đ7), trừ Đ49 (doanh nghiệp đưa đi nước ngoài) là mức tổ chức. **TT 09/2026/TT-BNV** (hiệu lực 30/6/2026) thay phụ lục mức trần môi giới của TT 02/2024 – bài 5 đã sửa hộp, chưa có Phụ lục X. **Luật 22/2026/QH16** sửa Luật 69/2020, hiệu lực 01/3/2027 – cần toàn văn. **QĐ 34/2025/QĐ-TTg** thay QĐ 40/2021 (Quỹ HTVLNN). Lương cơ sở/mức tham chiếu 2.530.000 đ.
 0a. (Phiên 6) Nguồn kỹ thuật mới: caselaw.vn đọc được toàn văn bằng curl (NĐ 145/2020, Luật 69/2020, NĐ 112/2021, TT 10/2020); vcci.com.vn/van-ban-phap-luat/41-2024-qh15 (Luật BHXH); hethongphapluat.com/luat-hoa-chat-2025.html; BLLĐ bản gốc song ngữ JETRO PDF.
