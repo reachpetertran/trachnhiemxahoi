@@ -1,0 +1,19 @@
+{
+  "name": "trachnhiemxahoi-app",
+  "version": "0.1.0",
+  "private": true,
+  "description": "App Android Trách Nhiệm Xã Hội – bọc trang tĩnh bằng Capacitor",
+  "scripts": {
+    "www": "python3 build_www.py",
+    "sync": "python3 build_www.py && npx cap sync android"
+  },
+  "license": "CC-BY-NC-SA-4.0",
+  "dependencies": {
+    "@capacitor/app": "^8.1.2",
+    "@capacitor/core": "^8.6.2"
+  },
+  "devDependencies": {
+    "@capacitor/android": "^8.6.2",
+    "@capacitor/cli": "^8.6.2"
+  }
+}

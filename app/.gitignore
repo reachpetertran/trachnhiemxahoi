@@ -1,0 +1,8 @@
+www/
+node_modules/
+sach-data/
+*.apk
+*.aab
+*.jks
+*.keystore
+keystore.properties

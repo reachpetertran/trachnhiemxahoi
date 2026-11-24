@@ -1,0 +1,28 @@
+# Đẩy nhánh `app` → build APK bản thử, lưu thành artifact (không đăng Releases công khai).
+# Bản build trên GitHub KHÔNG có sách (dữ liệu sách không đưa lên kho công khai).
+name: app-android
+on:
+  push:
+    branches: [app]
+    paths: ["app/**", "public/**", "data/**", "content/**", ".github/workflows/app-android.yml"]
+  workflow_dispatch:
+jobs:
+  apk:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: app } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 22, cache: npm, cache-dependency-path: app/package-lock.json }
+      - uses: actions/setup-java@v4
+        with: { distribution: temurin, java-version: 21, cache: gradle }
+      - run: pip install pyyaml
+      - run: npm ci
+      - run: python3 build_www.py
+      - run: npx cap sync android
+      - run: cd android && ./gradlew assembleDebug --no-daemon
+      - uses: actions/upload-artifact@v4
+        with:
+          name: trachnhiemxahoi-app-debug
+          path: app/android/app/build/outputs/apk/debug/app-debug.apk
+          retention-days: 30

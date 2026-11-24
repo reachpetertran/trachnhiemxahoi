@@ -1,0 +1,13 @@
+{
+  "appId": "com.trachnhiemxahoi.app",
+  "appName": "Trách Nhiệm Xã Hội",
+  "webDir": "www",
+  "android": {
+    "androidScheme": "https",
+    "allowMixedContent": false,
+    "webContentsDebuggingEnabled": false
+  },
+  "plugins": {
+    "SystemBars": { "insetsHandling": "css" }
+  }
+}
