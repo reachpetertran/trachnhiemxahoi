@@ -114,3 +114,23 @@ modules:
     - slug: nong-dan-ngu-dan
     - slug: lao-dong-tu-do
     - slug: tre-em-di-lam
+- title: "Phần 8. Người cần được bảo vệ đặc biệt"
+  title_en: "Part 8. People who need special protection"
+  goals:
+    - Nhận ra dấu hiệu bị lừa bán, bị cưỡng bức lao động; biết nạn nhân được hỗ trợ gì và gọi 111.
+    - Nhận ra các dạng bạo lực gia đình; biết xin cấm tiếp xúc, nơi tạm lánh; gọi 117.
+    - Xin giấy xác nhận khuyết tật và trợ cấp hằng tháng; biết quyền đi làm của người khuyết tật.
+    - Nhận biết sớm dấu hiệu trầm cảm, biết đi khám ở đâu và làm gì khi ai đó muốn tự làm hại mình.
+    - Biết trẻ mồ côi, trẻ có cha mẹ ở tù, mất tích được trợ cấp bao nhiêu, miễn học phí, và ai bảo vệ trẻ.
+  goals_en:
+    - Recognise the signs of trafficking and forced labour; know what support victims get, and call 111.
+    - Recognise the forms of domestic violence; know how to ask for a no-contact order and shelter; call 117.
+    - Apply for a disability certificate and the monthly allowance; know the work rights of people with disabilities.
+    - Spot early signs of depression, know where to get care, and what to do if someone wants to harm themselves.
+    - Know the allowances for orphans and children whose parents are in prison or missing, free tuition, and who protects children.
+  lessons:
+    - slug: mua-ban-nguoi
+    - slug: bao-luc-gia-dinh
+    - slug: nguoi-khuyet-tat
+    - slug: suc-khoe-tam-than
+    - slug: tre-kho-khan

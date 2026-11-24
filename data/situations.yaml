@@ -108,3 +108,21 @@ situations:
 - q: Thấy trẻ em bị bắt làm việc nặng, bị đánh, bị giữ
   q_en: I see a child being made to do heavy work, beaten or held
   to: tre-em-di-lam
+- q: Người môi giới giữ hộ chiếu, bắt làm trả nợ, không cho về
+  q_en: A broker keeps my passport, makes me work off a debt and will not let me leave
+  to: mua-ban-nguoi
+- q: Được rủ đi làm “việc nhẹ lương cao”, đi ngay, có người lo vé
+  q_en: I am offered an “easy job, high pay”, leave now, ticket paid
+  to: mua-ban-nguoi
+- q: Chồng (vợ) đánh đập, chửi bới, giữ hết tiền lương của tôi
+  q_en: My husband (wife) beats me, abuses me verbally, takes all my wages
+  to: bao-luc-gia-dinh
+- q: Tôi bị khuyết tật – xin trợ cấp ở đâu? Công ty có được bắt tôi làm ca đêm?
+  q_en: I have a disability – where do I apply for an allowance? Can the company put me on night shifts?
+  to: nguoi-khuyet-tat
+- q: Tôi (hoặc người thân) buồn chán kéo dài, mất ngủ, nghĩ quẩn
+  q_en: I (or someone close to me) have felt low for weeks, cannot sleep, have dark thoughts
+  to: suc-khoe-tam-than
+- q: Tôi đang nuôi cháu mồ côi, hoặc con của người đang đi tù
+  q_en: I am raising an orphaned grandchild, or the child of someone in prison
+  to: tre-kho-khan

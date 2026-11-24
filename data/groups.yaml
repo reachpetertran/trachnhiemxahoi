@@ -33,30 +33,30 @@ groups:
 - code: mua-ban-nguoi
   name: Người bị lừa, bị mua bán, bị ép làm việc
   short: Nhận biết dấu hiệu, cách thoát, ai hỗ trợ
-  status: soon
+  status: active
   name_en: People deceived, trafficked or forced to work
   short_en: Warning signs, how to get out, who helps
 - code: phu-nu
   name: Phụ nữ bị bạo hành
   short: Nơi tạm lánh, trợ giúp pháp lý, bảo vệ con
-  status: soon
+  status: active
   name_en: Women facing violence
   short_en: Safe shelter, legal aid, protecting children
 - code: khuyet-tat
   name: Người khuyết tật
   short: Quyền đi làm, hỗ trợ, học nghề
-  status: soon
+  status: active
   name_en: People with disabilities
   short_en: The right to work, support, vocational training
 - code: suc-khoe-tam-than
   name: Người có vấn đề sức khỏe tâm thần
   short: Nhận biết sớm, nơi khám, người thân cần làm gì
-  status: soon
+  status: active
   name_en: People with mental health conditions
   short_en: Early signs, where to get care, what families can do
 - code: tre-kho-khan
   name: Trẻ mồ côi, trẻ không nơi nương tựa, trẻ trong gia đình khó khăn
   short: Nợ nần, cờ bạc, bạo hành, bệnh tật trong nhà
-  status: soon
+  status: active
   name_en: Orphans, children without care, children in families in crisis
   short_en: Debt, gambling, violence, illness at home

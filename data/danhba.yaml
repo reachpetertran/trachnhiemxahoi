@@ -47,6 +47,15 @@ sections:
     name_en: National hotline for child protection and anti-trafficking
     what_en: A child is abused or made to work; a person is tricked, sold or forced to work (in Vietnam or abroad).
     note_en: 24/7, free. Since 1 July 2025, 111 is also the national line for reporting human trafficking (Decree 162/2025/NĐ-CP, Article 4).
+  - name: Tổng đài quốc gia về phòng, chống bạo lực gia đình
+    phone: '117'
+    what: Bị đánh, bị chửi bới, bị kiểm soát tiền, bị ép quan hệ, bị đuổi khỏi nhà… – báo tin, được tư vấn và kết nối hỗ trợ ở địa phương.
+    note: 24/7, miễn phí. Bộ Văn hóa, Thể thao và Du lịch kích hoạt ngày 08/9/2026, theo Luật Phòng, chống bạo lực gia đình 2022 và Nghị định 76/2023/NĐ-CP.
+    src: https://bvhttdl.gov.vn/cong-bo-tong-dai-dien-thoai-quoc-gia-ve-phong-chong-bao-luc-gia-dinh.htm
+    status: ok
+    name_en: National domestic violence hotline
+    what_en: Beaten, verbally abused, money controlled, forced sex, thrown out of home… – report, get advice and referral to local support.
+    note_en: 24/7, free. Activated by the Ministry of Culture, Sports and Tourism on 8 September 2026, under the 2022 Law on Domestic Violence Prevention and Control and Decree 76/2023/NĐ-CP.
   title_en: Emergencies in Vietnam
 - title: Hỏi luật, khiếu nại tại Việt Nam
   items:

@@ -307,10 +307,12 @@ def curriculum(L):
         goals = "".join(f"<li>{e(g)}</li>" for g in (m["goals_en"] if not vi else m["goals"]))
         parts.append(f'<h2>{e(f(m, "title", L))}</h2><div class="sum"><b>{"Học xong, bạn làm được" if vi else "When you finish, you can"}</b><ul>{goals}</ul></div><ul class="cards">{"".join(items)}</ul>')
     later = [g for g in visible() if g["status"] == "soon"]
-    parts.append(f'<h2>{"Phần 8. Các nhóm người lao động khác (giai đoạn sau)" if vi else "Part 8. Other groups of workers (later stage)"}</h2>'
-                 f'<p>{"Mỗi nhóm sẽ có bộ bài riêng, viết theo cùng mẫu." if vi else "Each group will get its own set of lessons, in the same format."}</p>'
-                 f'<ul class="cards grid">{"".join(group_card(L, g) for g in later)}</ul>')
-    prog = (f"Đã đăng {done}/{total} bài trong Phần 1–7." if vi else f"{done} of {total} lessons in Parts 1–7 are published.")
+    nmod = len(CUR["modules"])
+    if later:
+        parts.append(f'<h2>{f"Phần {nmod + 1}. Các nhóm người lao động khác (giai đoạn sau)" if vi else f"Part {nmod + 1}. Other groups of workers (later stage)"}</h2>'
+                     f'<p>{"Mỗi nhóm sẽ có bộ bài riêng, viết theo cùng mẫu." if vi else "Each group will get its own set of lessons, in the same format."}</p>'
+                     f'<ul class="cards grid">{"".join(group_card(L, g) for g in later)}</ul>')
+    prog = (f"Đã đăng {done}/{total} bài trong Phần 1–{nmod}." if vi else f"{done} of {total} lessons in Parts 1–{nmod} are published.")
     how = ("<h2>Cách học mỗi bài</h2><ol><li>Đọc <b>Tóm tắt</b> trước.</li><li>Đọc <b>Luật nói gì</b>, đối chiếu với giấy tờ của bạn (hợp đồng, phiếu lương, sổ BHXH).</li>"
            "<li>Làm theo <b>Bạn làm gì</b>, từng bước.</li><li>Lưu số ở <b>Gọi ai</b> vào điện thoại.</li><li>Xem <b>Đúng đến ngày</b>: luật có thể đã đổi.</li></ol>") if vi else (
            "<h2>How to study each lesson</h2><ol><li>Read <b>In short</b> first.</li><li>Read <b>What the law says</b> and compare it with your own papers (contract, payslip, social insurance record).</li>"
