@@ -1,7 +1,7 @@
 # TIẾN ĐỘ – trachnhiemxahoi.com
 
 Đọc file này đầu mỗi phiên làm việc mới. Cập nhật cuối mỗi phiên.
-Cập nhật gần nhất: 24/11/2026 (phiên 9).
+Cập nhật gần nhất: 24/11/2026 (phiên 10 – app điện thoại, mục 10).
 
 ## 1. Trạng thái hiện tại – v0.3, ĐANG CHẠY THẬT
 - Trang chính: https://trachnhiemxahoi.com (đã chạy). www.trachnhiemxahoi.com: đã chạy. Bản dự phòng: https://trachnhiemxahoi-web.pages.dev
@@ -120,3 +120,12 @@ Bản tiếng Anh ghi rõ: trích dẫn luật là bản dịch không chính th
 4a. Nguồn kỹ thuật (phiên 5): shell của phiên đọc được vanban.vcci.com.vn và vcci.com.vn/van-ban-phap-luat/... bằng curl (lấy toàn văn, trích nguyên văn được); vbpl.vn, thuvienphapluat.vn, datafiles.chinhphu.vn bị chặn (403). (Phiên 8) Thêm nguồn đọc được bằng curl: hethongphapluat.com/luat-an-toan-ve-sinh-lao-dong-2015.html; vcci.com.vn/van-ban-phap-luat/143-2024-nd-cp; caselaw.vn (TT 09/2020, Luật BVKDTV 41/2013); PDF VBHN Luật Trẻ em trên static.luatvietnam.vn; Luật Thủy sản PDF trên nbca.gov.vn. datafiles.chinhphu.vn đọc được qua WebFetch.
 5. Định kỳ: theo dõi dự thảo sửa NĐ 145/2020 (Bộ Nội vụ, 7/2026) – khi ban hành, cập nhật bảng Phụ lục II bài 8; rà lương tối thiểu vào tháng 11–12; theo dõi luật sửa BLLĐ và Luật ATVSLĐ (Quốc hội khóa XVI); Nhật Bản 育成就労 từ 01/4/2027.
 6. (Tùy chọn) Xóa Pages project cũ `trachnhiemxahoi`.
+
+## 10. APP ĐIỆN THOẠI (phiên 10, 24/11/2026)
+- Làm theo tệp "KỸ THUẬT APP ĐIỆN THOẠI" (rút từ app Dạy Nền Tảng): Capacitor 8.6, Android trước.
+- Mã: nhánh `app` của kho GitHub (commit đầu 24/11/2026). Thư mục `app/`: build_www.py, shell/app.css + app.js, capacitor.config.json (appId **com.trachnhiemxahoi.app**, không đổi được sau lần tải lên Play đầu tiên), android/ (targetSdk 36, minSdk 24), README.md. Workflow `.github/workflows/app-android.yml`: đẩy nhánh app → APK bản thử (artifact).
+- Đã có: 27 bài song ngữ đọc được khi mất mạng; 5 tab (Trang chủ · Học · Sách · Gọi ai · Của tôi); thanh trên: Tìm, Aa (cỡ chữ 4 mức, nền Theo máy/Sáng/Tối, ngôn ngữ), nút SOS → danh bạ; "Học" = 8 Phần của khung chương trình, thanh tiến độ từng phần, "Học tiếp", "Bài x trên y", bài trước/tiếp, đánh dấu xong (✓ cạnh link), lưu bài, ghi chú, "Đọc tiếp" nhớ vị trí cuộn, "Tuần này", tìm không dấu, xóa dữ liệu bấm 2 lần. Tiến độ dùng chung cho bản Việt và Anh. Tắt sao lưu đám mây (allowBackup=false). Icon, màn hình khởi động từ logo-icon.svg.
+- Bản thử gửi Peter: trachnhiemxahoi-thu-v0.1.apk (debug, KHÔNG có sách). Khóa debug đổi theo phiên → khi cài bản mới phải gỡ bản cũ.
+- Quyết định Peter (24/11/2026): sách chỉ tiếng Việt (bản EN có 27 bài web, tab Sách ghi rõ chưa có bản dịch); có sách trong app nhưng CHƯA lên Play – chỉ cài thử APK, lên cửa hàng sau khi hỏi NXB (Luật 17/2026 Đ10.2.g, hiệu lực 01/3/2027).
+- Dữ liệu sách (out/app/ của mã sách) KHÔNG đưa lên GitHub công khai: để ở app/sach-data/ (.gitignore), APK có sách build tại máy của phiên (SDK cài ở /home/claude/android-sdk bằng sdkmanager; dl.google.com, maven truy cập được; maven central có lúc báo 429 → chờ 30 giây, --max-workers=1).
+- VIỆC TIẾP: (1) Peter gửi sach-tnxh-chu-va-ma.zip (không có trong Downloads) → viết app/build_book.py đọc manifest.json + chapters/chXX.json → sinh www/sach/chXX.html, gắn vào tab Sách (khung đọc, tiến độ, ghi chú đã viết sẵn trong app.js: BK.chapters[{u,n,t,review}], BK.parts[{t,ch}], BK.front/back, BK.title/author/checked); (2) Peter thử APK trên 2–3 máy thật; (3) Peter chốt tên dưới icon (hiện "Trách Nhiệm Xã Hội", có thể bị cắt); (4) trước khi lên Play: chính sách quyền riêng tư (URL), Data safety, IARC, đối tượng mục tiêu (có nhóm trẻ em → xét Families Policy), khóa ký chính thức do Peter giữ, phí 25 USD, chạy thử kín ≥12 người ≥14 ngày; (5) Pages: nhánh app tạo bản xem trước trên Cloudflare (public/ không đổi) – vô hại.
