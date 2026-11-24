@@ -27,7 +27,7 @@
   } catch (e) {}
 
   var T = EN ? {
-    name: "Trách Nhiệm Xã Hội", home: "Home", learn: "Learn", book: "Book", call: "Contacts", me: "Me",
+    name: "Quyền Làm Việc", home: "Home", learn: "Learn", book: "Book", call: "Contacts", me: "Me",
     search: "Search", settings: "Reading settings", size: "Text size", bg: "Background", auto: "Device", light: "Light",
     dark: "Dark", lang: "Language", close: "Close", part: "Part", lesson: "Lesson", of: "of", done: "Mark as finished",
     isdone: "Finished ✓", savebtn: "Save", saved: "Saved ★", note: "My note (only on this phone)", prev: "Previous",
@@ -40,7 +40,7 @@
     nobook: "The book is not in this version of the app yet.", review: "This chapter is waiting for expert review.",
     lessons: "lessons", chapters: "chapters", noen: "This page has no English version yet – opening the English home page."
   } : {
-    name: "Trách Nhiệm Xã Hội", home: "Trang chủ", learn: "Học", book: "Sách", call: "Gọi ai", me: "Của tôi",
+    name: "Quyền Làm Việc", home: "Trang chủ", learn: "Học", book: "Sách", call: "Gọi ai", me: "Của tôi",
     search: "Tìm", settings: "Cài đặt đọc", size: "Cỡ chữ", bg: "Màu nền", auto: "Theo máy", light: "Sáng",
     dark: "Tối", lang: "Ngôn ngữ", close: "Đóng", part: "Phần", lesson: "Bài", of: "trên", done: "Đánh dấu đã học xong",
     isdone: "Đã học xong ✓", savebtn: "Lưu bài", saved: "Đã lưu ★", note: "Ghi chú của tôi (chỉ lưu trên máy này)", prev: "Bài trước",
