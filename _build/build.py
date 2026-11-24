@@ -61,11 +61,11 @@ LANGS = {
         nav=["Tôi là ai", "Tôi gặp chuyện gì", "Gọi ai", "Tất cả bài", "Khung chương trình", "Giới thiệu"],
         sos='Nguy hiểm ngay? Gọi <a href="tel:113">113</a> công an · <a href="tel:115">115</a> cấp cứu · <a href="tel:111">111</a> trẻ em, mua bán người',
         sos_link="Danh bạ hỗ trợ →", switch="English", skip="Bỏ qua, tới nội dung",
-        foot1="– trang tự học miễn phí, phi lợi nhuận, không đăng nhập, không quảng cáo, không theo dõi. Người biên soạn: Liêm.",
+        foot1="– trang tự học miễn phí, phi lợi nhuận, không đăng nhập, không quảng cáo, không theo dõi. Người biên soạn: Peter Tran.",
         foot2='Thông tin trên trang để <b>tham khảo</b>, không thay thế tư vấn pháp lý cho từng vụ việc. Luật thay đổi thường xuyên: mỗi bài ghi rõ “đúng đến ngày”. Với vụ việc cụ thể, hãy liên hệ <a href="{dir}">Trung tâm Trợ giúp pháp lý nhà nước</a>.',
         foot3="Học thêm miễn phí:", foot4="Nội dung tự viết:", foot5="Văn bản pháp luật trích dẫn không thuộc đối tượng bảo hộ quyền tác giả.",
         lic="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.vi",
-        n_arts="bài", soon="Sắp có", draft="Nháp – chưa đăng", checked="Đúng đến ngày", by="Biên soạn: Liêm",
+        n_arts="bài", soon="Sắp có", draft="Nháp – chưa đăng", checked="Đúng đến ngày", by="Biên soạn: Peter Tran",
         summary="Tóm tắt", upcoming="Sắp thay đổi", sources="Nguồn", open="mở",
         report="Thấy thông tin sai hoặc đã cũ? Hãy báo cho người biên soạn để sửa. Bài này không thay thế tư vấn pháp lý cho từng vụ việc.",
         crumb_arts="Bài", crumb_groups="Tôi là ai", need_help='Cần giúp ngay? Xem <a href="{dir}">danh bạ hỗ trợ</a>.',
@@ -79,11 +79,11 @@ LANGS = {
         nav=["Who I am", "What's happening", "Who to call", "All articles", "Curriculum", "About"],
         sos='In danger now? In Vietnam call <a href="tel:113">113</a> police · <a href="tel:115">115</a> ambulance · <a href="tel:111">111</a> children, trafficking',
         sos_link="Help contacts →", switch="Tiếng Việt", skip="Skip to content",
-        foot1="– a free, non-profit self-study site. No login, no ads, no tracking. Compiled by Liêm.",
+        foot1="– a free, non-profit self-study site. No login, no ads, no tracking. Compiled by Peter Tran.",
         foot2='This site is for <b>general information</b> and is not legal advice for any individual case. Laws change often: every article shows the date it was last checked. For a specific case, contact a <a href="{dir}">State Legal Aid Centre</a>.',
         foot3="Learn more for free:", foot4="Original content:", foot5="Quoted legal texts are not subject to copyright under Vietnamese law. English quotations of Vietnamese law are unofficial translations.",
         lic="https://creativecommons.org/licenses/by-nc-sa/4.0/",
-        n_arts="articles", soon="Coming soon", draft="Draft – not published", checked="Checked on", by="Compiled by Liêm",
+        n_arts="articles", soon="Coming soon", draft="Draft – not published", checked="Checked on", by="Compiled by Peter Tran",
         summary="In short", upcoming="Coming changes", sources="Sources", open="open",
         report="Spotted something wrong or out of date? Please tell the editor. This article is not legal advice for any individual case.",
         crumb_arts="Articles", crumb_groups="Who I am", need_help='Need help now? See the <a href="{dir}">help contacts</a>.',
@@ -338,8 +338,8 @@ Sau đó: những người dễ bị tổn thương khác – người bị lừ
 <li>Không thu thập dữ liệu người đọc: không đăng nhập, không cookie, không công cụ theo dõi.</li></ul>
 <h2>Logo</h2><p>Mũ bảo hộ đặt trên quyển sách mở: <b>biết luật để tự bảo vệ mình</b>. Phía sau là nhà máy, ruộng đồng và chiếc máy bay – công nhân, nông dân và người Việt đi làm xa.</p>
 <h2>Người biên soạn</h2>
-<p>Liêm – đánh giá viên trách nhiệm xã hội và an toàn, sức khỏe nghề nghiệp nhiều năm làm việc tại nhà máy ở Việt Nam và khu vực. Các tình huống trong bài được viết chung, không nêu tên doanh nghiệp hay người lao động nào.</p>
-<h2>Các trang học miễn phí khác của Liêm</h2>
+<p>Peter Tran – đánh giá viên trách nhiệm xã hội và an toàn, sức khỏe nghề nghiệp nhiều năm làm việc tại nhà máy ở Việt Nam và khu vực. Các tình huống trong bài được viết chung, không nêu tên doanh nghiệp hay người lao động nào.</p>
+<h2>Các trang học miễn phí khác của Peter Tran</h2>
 <ul><li><a href="https://kynanglamviec.com">Kỹ Năng Làm Việc</a> – kỹ năng đi làm, từ người mới tới quản lý.</li>
 <li><a href="https://tienganhcanban.com">Tiếng Anh Căn Bản</a> – tự học tiếng Anh.</li>
 <li><a href="https://daynentang.com">Dạy Nền Tảng</a> – nền tảng học tập cho mọi lứa tuổi.</li>
@@ -359,8 +359,8 @@ Later: other vulnerable groups – people who were deceived or trafficked, women
 <li>No data collection: no login, no cookies, no tracking.</li></ul>
 <h2>The logo</h2><p>A safety helmet resting on an open book: <b>knowing the law protects you</b>. Behind it are a factory, rice fields and an aeroplane – factory workers, farmers and Vietnamese people working far from home.</p>
 <h2>The editor</h2>
-<p>Liêm – a social compliance and occupational health and safety auditor with many years of factory audits in Vietnam and the region. Examples in the articles are general and never name any company or worker.</p>
-<h2>Other free sites by Liêm</h2>
+<p>Peter Tran – a social compliance and occupational health and safety auditor with many years of factory audits in Vietnam and the region. Examples in the articles are general and never name any company or worker.</p>
+<h2>Other free sites by Peter Tran</h2>
 <ul><li><a href="https://kynanglamviec.com">Kỹ Năng Làm Việc</a> – work skills, from first job to manager.</li>
 <li><a href="https://tienganhcanban.com">Tiếng Anh Căn Bản</a> – English self-study.</li>
 <li><a href="https://daynentang.com">Dạy Nền Tảng</a> – foundation learning for all ages.</li>
